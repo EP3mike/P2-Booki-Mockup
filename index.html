@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <title>
+        Booki
+    </title>
+</head>
+
+<body>
+    <nav>
+        <ul class='nav-menu'>
+            <li><a href="#Accomodations">Accomodations</a></li>
+            <li><a href="#Activities">Activities</a></li>
+        </ul>
+
+    </nav>
+    <header>
+
+
+
+        <img src="images/logo/Booki.png" alt="logo" width="90" height="60">
+
+
+    </header>
+
+
+
+
+    <main>
+        <section class="welcome">
+            <h3>Find a place for your dream vacation</h3>
+            <p>Downtown or in nature</p>
+        </section>
+
+        <section class="search-container">
+            <form>
+                <button type="button" id="gps-btn"><i class="fas fa-map-marker-alt"></i></button>
+                <input type="search" id="query" placeholder="Marseille, France">
+                <button type="submit" id="btn-search">Search</button>
+
+
+            </form>
+
+        </section>
+        <section class="filter-container">
+            <p>Filters</p>
+            <!--<button class="btn active" onclick="filterSelection('Filters')">Filters</button>-->
+
+            <button class="btn" onclick="filterSelection('Low cost')">
+                <span class="icon-dollar">
+                    <i class="fas fa-money-bill-wave"></i>
+                </span>
+
+                <span class="btn1-text">Low cost</span>
+
+
+
+            </button>
+
+
+            <button class="btn" onclick="filterSelection('Family-Friendly')">
+                <span class="icon-family">
+                <i class="fas fa-child"></i>
+                </span>
+                Family-Friendly
+            </button>
+
+            <button class="btn" onclick="filterSelection('Romantic')">Romantic</button>
+            <button class="btn" onclick="filterSelection('Pets allowed')">Pets allowed</button>
+        </section>
+
+
+
+        <section class="tally-container">
+            <span class="fa-stack ">
+                <i class="far fa-circle fa-stack-2x info-icon-background"></i>
+                <i class="fas fa-info fa-stack-1x info-icon-foreground"></i>
+            </span>
+
+
+            <p>More than 500 accomodations are available in this city</p>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>

@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+    width: 992px;
+    font-family: 'Raleway';
+    font-size: 18px;
+    color: #000000;
+    padding: 5px 10px;
+}
+
+i {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    width: 5%;
+    vertical-align: middle;
+
+}
+
+
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between safe;
+    gap: 100%;
+}
+
+
+nav ul li {
+    border-top: 3px solid #FFFFFF;
+    position: relative;
+    top: -15px;
+
+}
+
+nav li:hover {
+    border-top: 3px solid #0065FC;
+}
+
+.nav-menu li {
+    display: inline;
+    list-style-type: none;
+
+}
+
+.nav-menu li a:link {
+    text-decoration: none;
+    color: #303234;
+}
+
+.nav-menu li a:visited {
+    text-decoration: none;
+    color: #303234;
+}
+
+.nav-menu li a:active {
+    text-decoration: none;
+    color: #303234;
+}
+
+.nav-menu li a:hover {
+    text-decoration: none;
+    color: #0065FC;
+}
+
+
+
+
+
+
+.welcome-container {
+    line-height: 0px;
+    color: black;
+    margin-left: -5px;
+    padding-left: 5px;
+
+}
+
+.welcome-container p {
+    font-size: 12.5px;
+    padding-left:9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search-container {
+    padding: 0px;
+    position: relative;
+    right:2px;
+}
+
+#gps-btn {
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 3.5%;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    position: relative;
+    bottom: 1px;
+
+}
+
+#gps-btn i {
+    position: relative;
+    right: 9px;
+    font-size: 12px;
+}
+
+#query {
+    width: 20%;
+    border: 1px solid #F2F2F2;
+    position: relative;
+    right: 6px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#query::placeholder {
+    color: black;
+    opacity: 1;
+    font-weight: 900;
+    font-size: 14px;
+    padding: 5px 0px;
+}
+
+#btn-search {
+    width: 7%;
+    background-color: #0065FC;
+    border-width: 0px;
+    color: white;
+    position: relative;
+    right: 12px;
+    font-size: 12px;
+    padding:9.5px 0px;
+    top: -2px;
+    font-weight: bold;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.filter-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: center;
+    gap: 18px;
+    padding-top: 30px;
+    font-weight: bold;
+    padding-left:0px;
+}
+
+.filter-container p {
+    width: 6%;
+    font-size: 14px;
+}
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2.5px solid #D3D3D3;
+    background-color: white;
+    border-radius: 30px;
+    width: 135px;
+    font-weight: bold;
+    overflow: visible;
+    height: 42px;
+    gap: 3px;
+
+
+
+}
+
+.btn2 {
+    display: inline-flex;
+    overflow: visible;
+    justify-content: center;
+    align-items: center;
+    border: 2.5px solid #D3D3D3;
+    background-color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    width: 150px;
+    height: 42px;
+    gap: 3px;
+
+}
+
+.icon-dollar {
+    border-radius: 50%;
+    overflow: visible;
+    border: 1px solid #DEEBFF;
+    background-color: #DEEBFF;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: 11px;
+}
+
+.icon-dollar i {
+    font-size: 14px;
+    position: relative;
+    right: 11px;
+    bottom: -2px;
+    color: #0065FC;
+
+}
+
+.btn1-text {
+    font-size: 14px;
+    font-weight: 900;
+    text-align: left;
+    white-space: nowrap;
+    padding: 0px;
+    width: 90px;
+    font-weight: bold;
+
+
+}
+
+.icon-family {
+    border-radius: 50%;
+    overflow: visible;
+    border: 1px solid #DEEBFF;
+    background-color: #DEEBFF;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: 12px;
+
+}
+
+.icon-family i {
+    font-size: 14px;
+    position: relative;
+    color: #0065FC;
+    right: 6px;
+    top:1px;
+}
+
+.btn2-text{
+    font-size: 14px;
+    font-weight: 900;
+    text-align: left;
+    white-space: nowrap;
+    padding: 0px;
+    width: 90px;
+    justify-self: left;
+    font-weight: bold;
+}
+
+.icon-romantic{
+    border-radius: 50%;
+    overflow: visible;
+    border: 1px solid #DEEBFF;
+    background-color: #DEEBFF;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right:16px;
+}
+
+.icon-romantic i{
+    font-size: 15px;
+    position: relative;
+    color: #0065FC;
+    right:8px;
+    top:2px;
+}
+
+.btn3-text{
+    font-size: 14px;
+    font-weight: 900;
+    text-align: left;
+    white-space: nowrap;
+    padding: 0px;
+    width: 90px;
+    font-weight: bold;
+}
+
+.icon-pet{
+    border-radius: 50%;
+    overflow: visible;
+    border: 1px solid #DEEBFF;
+    background-color: #DEEBFF;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right:15px;
+}
+
+.icon-pet i{
+    font-size: 14px;
+    position: relative;
+    color: #0065FC;
+    right:8px;
+}
+
+.btn4-text{
+    font-size: 14px;
+    font-weight: 900;
+    text-align: left;
+    white-space: nowrap;
+    padding: 0px;
+    width: 90px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tally-container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.tally-container p {
+    width: 325px;
+    font-size: 13px;
+
+}
+
+.fa-stack {
+    bottom: 12px;
+    right: 6px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.info-icon-background {
+    color: #F2F2F2;
+    left: 4px;
+}
+
+.info-icon-foreground {
+    color: #0065FC;
+    left: 10px;
+    font-size: 13px;
+
+}
+
+
+
+.accom-card-container {
+    border: 0px solid #F2F2F2;
+}
