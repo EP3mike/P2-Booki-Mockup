@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     width: 992px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 
     color: #000000;
     padding: 5px 10px;
@@ -12,11 +12,10 @@ i {
     font-weight: 900;
     width: 5%;
     vertical-align: middle;
-
 }
 
 
-
+/*  start of header css */
 header {
     display: flex;
     flex-flow: row nowrap;
@@ -28,12 +27,10 @@ header {
     display: inline;
     list-style-type: none;
     padding-top: 37px;
-
 }
 
 nav li:hover {
-    border-top: 3px solid #0065FC;
-
+    border-top: 3px solid #0065fc;
 }
 
 .nav-menu li a:link {
@@ -53,20 +50,16 @@ nav li:hover {
 
 .nav-menu li a:hover {
     text-decoration: none;
-    color: #0065FC;
+    color: #0065fc;
 }
 
 
-
-
-
-
+/* start of text above search bar css */
 .welcome-container {
     line-height: 0px;
     color: black;
     margin-left: -5px;
     padding-left: 5px;
-
 }
 
 .welcome-container p {
@@ -75,17 +68,7 @@ nav li:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* start of search bar css */
 .search-container {
     padding: 0px;
     position: relative;
@@ -93,8 +76,8 @@ nav li:hover {
 }
 
 #gps-btn {
-    border: 1px solid #F2F2F2;
-    background-color: #F2F2F2;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     width: 3.5%;
@@ -102,7 +85,6 @@ nav li:hover {
     padding-top: 5px;
     position: relative;
     bottom: 1px;
-
 }
 
 #gps-btn i {
@@ -113,7 +95,7 @@ nav li:hover {
 
 #query {
     width: 20%;
-    border: 1px solid #F2F2F2;
+    border: 1px solid #f2f2f2;
     position: relative;
     right: 6px;
     font-weight: bold;
@@ -131,7 +113,7 @@ nav li:hover {
 
 #btn-search {
     width: 7%;
-    background-color: #0065FC;
+    background-color: #0065fc;
     border-width: 0px;
     color: white;
     position: relative;
@@ -145,14 +127,7 @@ nav li:hover {
 }
 
 
-
-
-
-
-
-
-
-
+/* start of filter css */
 .filter-container {
     display: flex;
     flex-flow: row nowrap;
@@ -173,7 +148,7 @@ nav li:hover {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #F2F2F2;
+    border: 2px solid #f2f2f2;
     background-color: white;
     border-radius: 30px;
     width: 135px;
@@ -181,7 +156,6 @@ nav li:hover {
     overflow: visible;
     height: 42px;
     gap: 3px;
-
 }
 
 .btn2 {
@@ -189,21 +163,20 @@ nav li:hover {
     overflow: visible;
     justify-content: center;
     align-items: center;
-    border: 2px solid #F2F2F2;
+    border: 2px solid #f2f2f2;
     background-color: white;
     border-radius: 30px;
     font-weight: bold;
     width: 160px;
     height: 42px;
     gap: 3px;
-
 }
 
 .icon-dollar {
     border-radius: 50%;
     overflow: visible;
-    border: 1px solid #DEEBFF;
-    background-color: #DEEBFF;
+    border: 1px solid #deebff;
+    background-color: #deebff;
     width: 40px;
     height: 40px;
     position: relative;
@@ -215,8 +188,7 @@ nav li:hover {
     position: relative;
     right: 11px;
     bottom: -2px;
-    color: #0065FC;
-
+    color: #0065fc;
 }
 
 .btn1-text {
@@ -229,26 +201,23 @@ nav li:hover {
     font-weight: bold;
     position: relative;
     right: 12px;
-
-
 }
 
 .icon-family {
     border-radius: 50%;
     overflow: visible;
-    border: 1px solid #DEEBFF;
-    background-color: #DEEBFF;
+    border: 1px solid #deebff;
+    background-color: #deebff;
     width: 40px;
     height: 40px;
     position: relative;
     right: 18px;
-
 }
 
 .icon-family i {
     font-size: 15px;
     position: relative;
-    color: #0065FC;
+    color: #0065fc;
     right: 7px;
     top: 2px;
 }
@@ -268,8 +237,8 @@ nav li:hover {
 .icon-romantic {
     border-radius: 50%;
     overflow: visible;
-    border: 1px solid #DEEBFF;
-    background-color: #DEEBFF;
+    border: 1px solid #deebff;
+    background-color: #deebff;
     width: 40px;
     height: 40px;
     position: relative;
@@ -279,7 +248,7 @@ nav li:hover {
 .icon-romantic i {
     font-size: 15px;
     position: relative;
-    color: #0065FC;
+    color: #0065fc;
     right: 8px;
     top: 2px;
 }
@@ -299,8 +268,8 @@ nav li:hover {
 .icon-pet {
     border-radius: 50%;
     overflow: visible;
-    border: 1px solid #DEEBFF;
-    background-color: #DEEBFF;
+    border: 1px solid #deebff;
+    background-color: #deebff;
     width: 40px;
     height: 40px;
     position: relative;
@@ -310,7 +279,7 @@ nav li:hover {
 .icon-pet i {
     font-size: 15px;
     position: relative;
-    color: #0065FC;
+    color: #0065fc;
     right: 10px;
     top: 1px;
 }
@@ -328,46 +297,32 @@ nav li:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* start of text below filter css */
 .tally-container {
     display: flex;
     flex-flow: row nowrap;
-    padding-left: 2px;
+    padding-left: 5px;
     gap: 0px;
     align-items: baseline;
-
 }
 
 .tally-container p {
-    width: 325px;
+    width: 330px;
     font-size: 12.5px;
-
 }
 
 .icon-info {
-    border: 1.5px solid #D3D3D3;
+    border: 1.5px solid #d3d3d3;
     border-radius: 50%;
     width: 23px;
     height: 23px;
     position: relative;
     left: 2px;
     top: 6px;
-
 }
 
 .icon-info i {
-    color: #0065FC;
+    color: #0065fc;
     font-size: 10px;
     position: relative;
     right: 12px;
@@ -375,47 +330,88 @@ nav li:hover {
 }
 
 
-
-
-
-
-
-
-
-.card-container {}
+/* start of accom & most pop css */
+.card-container {
+    padding-left: 0px;
+    /* this will be the container for accom and most popular */
+}
 
 .accom-card-container {
     width: 695px;
     border-radius: 15px;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     padding: 5px 25px;
-
 }
 
-.grid-wrapper{
-   
+.grid-wrapper {
+    /* this will be the flex grid for the 6 cards in accomm section */
 }
-
 
 .card1 {
     background-color: white;
-    border-radius: 10px;
-    width: 200px;
-    height: 175px;
+    border-radius: 13px;
+    width: 205px;
+    height: 160px;
 }
 
-.card1 img{}
+.cannebiere-inn {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
 
-.c1-container {
-    padding-left: 0px;
-    line-height: 0px;
+.cannebiere-inn img {
+    width: 195px;
+    height: 90px;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    right: 5px;
+    top: -1px;
+}
 
+.c1-footer {
+    padding: 0;
+    margin-top:0;
+    margin-left:-10px;
+    line-height: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.c1-footer h5 {
+    width: 100%;
+    margin: 0;
+}
+
+.c1-footer p {
+    font-size: 10px;
+    width: 100%;
+    margin: 0;
+}
+
+.c1-footer b {
+    padding: 3px;
 }
 
 .c1-container p {
     font-size: 10px;
+    padding:0;
+    margin:0;
 }
 
-.c1-container b {
-    padding: 3px;
+.four-star{
+    padding: 8px;
+}
+
+.four-star i{
+    color:#0065FC;
+    font-size: 10px;
+    padding-left:0px;
+}
+.four-star :nth-child(5){
+    color:#F2F2F2;
 }
