@@ -2,7 +2,7 @@
     box-sizing: border-box;
     width: 992px;
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+
     color: #000000;
     padding: 5px 10px;
 }
@@ -24,21 +24,15 @@ header {
     gap: 100%;
 }
 
-
-nav ul li {
-    border-top: 3px solid #FFFFFF;
-    position: relative;
-    top: -15px;
+.nav-menu li {
+    display: inline;
+    list-style-type: none;
+    padding-top: 37px;
 
 }
 
 nav li:hover {
     border-top: 3px solid #0065FC;
-}
-
-.nav-menu li {
-    display: inline;
-    list-style-type: none;
 
 }
 
@@ -105,7 +99,7 @@ nav li:hover {
     border-bottom-left-radius: 10px;
     width: 3.5%;
     padding-bottom: 4px;
-    padding-top: 4px;
+    padding-top: 5px;
     position: relative;
     bottom: 1px;
 
@@ -123,8 +117,8 @@ nav li:hover {
     position: relative;
     right: 6px;
     font-weight: bold;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-bottom: 6px;
 }
 
 #query::placeholder {
@@ -179,7 +173,7 @@ nav li:hover {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    border: 2.5px solid #D3D3D3;
+    border: 2px solid #F2F2F2;
     background-color: white;
     border-radius: 30px;
     width: 135px;
@@ -195,7 +189,7 @@ nav li:hover {
     overflow: visible;
     justify-content: center;
     align-items: center;
-    border: 2.5px solid #D3D3D3;
+    border: 2px solid #F2F2F2;
     background-color: white;
     border-radius: 30px;
     font-weight: bold;
@@ -233,9 +227,9 @@ nav li:hover {
     padding: 0px;
     width: 90px;
     font-weight: bold;
-    position:relative;
-    right:12px;
-    
+    position: relative;
+    right: 12px;
+
 
 }
 
@@ -268,7 +262,7 @@ nav li:hover {
     width: 90px;
     font-weight: bold;
     position: relative;
-    right:10px;
+    right: 10px;
 }
 
 .icon-romantic {
@@ -298,8 +292,8 @@ nav li:hover {
     padding: 0px;
     width: 90px;
     font-weight: bold;
-    position:relative;
-    right:8px;
+    position: relative;
+    right: 8px;
 }
 
 .icon-pet {
@@ -314,11 +308,11 @@ nav li:hover {
 }
 
 .icon-pet i {
-    font-size: 14px;
+    font-size: 15px;
     position: relative;
     color: #0065FC;
-    right: 8px;
-    top:2px;
+    right: 10px;
+    top: 1px;
 }
 
 .btn4-text {
@@ -329,7 +323,7 @@ nav li:hover {
     padding: 0px;
     width: 90px;
     font-weight: bold;
-    position:relative;
+    position: relative;
     right: 7px;
 }
 
@@ -350,9 +344,9 @@ nav li:hover {
     display: flex;
     flex-flow: row nowrap;
     padding-left: 2px;
-    gap:0px;
+    gap: 0px;
     align-items: baseline;
-    
+
 }
 
 .tally-container p {
@@ -361,34 +355,67 @@ nav li:hover {
 
 }
 
-.icon-info{
-   border: 1.5px solid #D3D3D3;
-   border-radius: 50%;
-   width:23px;
-   height:23px;
-   position:relative;
-   left: 2px;
-   
-   top:6px;
-   
+.icon-info {
+    border: 1.5px solid #D3D3D3;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    position: relative;
+    left: 2px;
+    top: 6px;
 
-  
 }
 
 .icon-info i {
     color: #0065FC;
     font-size: 10px;
-    position:relative;
+    position: relative;
     right: 12px;
-    top:-6px;
-
-    
-    
-
+    top: -5px;
 }
 
 
 
+
+
+
+
+
+
+.card-container {}
+
 .accom-card-container {
-    border: 0px solid #F2F2F2;
+    width: 695px;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    padding: 5px 25px;
+
+}
+
+.grid-wrapper{
+   
+}
+
+
+.card1 {
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 175px;
+}
+
+.card1 img{}
+
+.c1-container {
+    padding-left: 0px;
+    line-height: 0px;
+
+}
+
+.c1-container p {
+    font-size: 10px;
+}
+
+.c1-container b {
+    padding: 3px;
 }
