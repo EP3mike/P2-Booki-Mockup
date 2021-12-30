@@ -331,7 +331,7 @@ nav li:hover {
 
 
 /* start of accom & most pop css */
-.card-container {
+.cards-container {
     padding-left: 0px;
     /* this will be the container for accom and most popular */
 }
@@ -344,7 +344,10 @@ nav li:hover {
 }
 
 .grid-wrapper {
-    /* this will be the flex grid for the 6 cards in accomm section */
+    display: flex;
+    flex-flow: row wrap;
+    width:100%;
+    gap: 15px;
 }
 
 .card1 {
@@ -354,14 +357,14 @@ nav li:hover {
     height: 160px;
 }
 
-.cannebiere-inn {
+.c1-header {
     width: 100%;
     height: auto;
     padding: 0;
     margin: 0;
 }
 
-.cannebiere-inn img {
+.c1-header img {
     width: 195px;
     height: 90px;
     padding: 0;
@@ -397,10 +400,126 @@ nav li:hover {
     padding: 3px;
 }
 
-.c1-container p {
+.four-star{
+    padding: 8px;
+}
+
+.four-star i{
+    color:#0065FC;
     font-size: 10px;
-    padding:0;
-    margin:0;
+    padding-left:0px;
+}
+
+.four-star :nth-child(5){
+    color:#F2F2F2;
+}
+
+
+.card2{
+    background-color: white;
+    border-radius: 13px;
+    width: 205px;
+    height: 160px;
+}
+
+.c2-header{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.c2-header img{
+    width: 195px;
+    height: 90px;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+.c2-footer{
+    padding: 0;
+    margin-top:0;
+    margin-left:-10px;
+    line-height: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.c2-footer h5{
+    width: 100%;
+    margin: 0;
+}
+
+.c2-footer p{
+    font-size: 10px;
+    width: 100%;
+    margin: 0;
+}
+
+.c2-footer b{
+    padding: 3px;
+}
+
+.five-star{
+    padding: 8px;
+}
+
+.five-star i{
+    color:#0065FC;
+    font-size: 10px;
+    padding-left:0px;
+}
+
+.card3{
+    background-color: white;
+    border-radius: 13px;
+    width: 205px;
+    height: 160px;
+}
+
+.c3-header{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.c3-header img{
+    width: 195px;
+    height: 90px;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+.c3-footer{
+    padding: 0;
+    margin-top:0;
+    margin-left:-10px;
+    line-height: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.c3-footer h5{
+    width: 100%;
+    margin: 0;
+}
+}
+
+.c3-footer p{
+    font-size: 10px;
+    width: 100%;
+    margin: 0;
+}
+
+.c3-footer b{
+    padding: 3px;
 }
 
 .four-star{
@@ -412,6 +531,189 @@ nav li:hover {
     font-size: 10px;
     padding-left:0px;
 }
+
 .four-star :nth-child(5){
     color:#F2F2F2;
+}
+
+.card4{  
+    background-color: white;
+    border-radius: 13px;
+    width: 205px;
+    height: 160px;
+}
+
+.c4-header{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.c4-header img{
+    width: 195px;
+    height: 90px;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+.c4-footer{
+    padding: 0;
+    margin-top:0;
+    margin-left:-10px;
+    line-height: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.c4-footer h5{
+    width: 100%;
+    margin: 0;
+}
+
+.c4-footer p{ 
+    font-size: 10px;
+    width: 100%;
+    margin: 0;
+}
+
+.c4-footer b{
+    padding: 3px;
+}
+
+.three-star{
+    padding: 8px;
+}
+
+.three-star i{
+    color:#0065FC;
+    font-size: 10px;
+    padding-left:0px;
+}
+
+.three-star :nth-child(4), .three-star :nth-child(5){
+    color:#F2F2F2;
+}
+
+.card5{
+    background-color: white;
+    border-radius: 13px;
+    width: 205px;
+    height: 160px;
+}
+
+.c5-header{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.c5-header img{
+    width: 195px;
+    height: 90px;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+.c5-footer{  
+    padding: 0;
+    margin-top:0;
+    margin-left:-10px;
+    line-height: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.c5-footer h5{
+    width: 100%;
+    margin: 0;
+}
+
+.c5-footer p{
+    font-size: 10px;
+    width: 100%;
+    margin: 0;
+}
+
+.c5-footer b{
+    padding: 3px;
+}
+
+.four-star{
+    padding: 8px;
+}
+
+.four-star i{
+    color:#0065FC;
+    font-size: 10px;
+    padding-left:0px;
+}
+
+.four-star:nth-child(5){
+    color:#F2F2F2;
+}
+
+.card6{
+    background-color: white;
+    border-radius: 13px;
+    width: 205px;
+    height: 160px;
+}
+
+.c6-header{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.c6-header img{
+    width: 195px;
+    height: 90px;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+.c6-footer{
+    padding: 0;
+    margin-top:0;
+    margin-left:-10px;
+    line-height: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.c6-footer h5{
+    width: 100%;
+    margin: 0;
+}
+
+.c6-footer p{
+    font-size: 10px;
+    width: 100%;
+    margin: 0;
+}
+
+.c6-footer b{
+    padding: 3px;
+}
+
+.five-star{
+    padding: 8px;
+}
+
+.five-star i{
+    color:#0065FC;
+    font-size: 10px;
+    padding-left:0px;
 }
