@@ -333,7 +333,7 @@ nav li:hover {
 /* start of accom & most pop css */
 .cards-container {
     padding-left: 0px;
-    /* this will be the container for accom and most popular */
+    
 }
 
 .accom-card-container {
@@ -343,11 +343,18 @@ nav li:hover {
     padding: 5px 25px;
 }
 
-.grid-wrapper {
+.grid-wrapper-row {
     display: flex;
     flex-flow: row wrap;
     width:100%;
     gap: 15px;
+}
+
+.grid-wrapper-column{
+    display:flex;
+    flex-direction: column;
+    flex-basis: 205px;
+    flex:1;
 }
 
 .card1 {
