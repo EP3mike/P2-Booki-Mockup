@@ -465,6 +465,10 @@ nav li:hover {
     top: -1px;
 }
 
+.c1-footer :hover{
+    color: #0065FC;
+}
+
 .c1-footer {
     padding: 0;
     margin-top:0;
@@ -523,6 +527,10 @@ nav li:hover {
     top: -1px;
 }
 
+.c2-footer :hover{
+    color: #0065FC;
+}
+
 .c2-footer{
     padding: 0;
     margin-top:0;
@@ -578,6 +586,10 @@ nav li:hover {
     position: relative;
     right: 5px;
     top: -1px;
+}
+
+.c3-footer :hover{
+    color: #0065FC;
 }
 
 .c3-footer{
@@ -638,6 +650,10 @@ nav li:hover {
     top: -1px;
 }
 
+.c4-footer :hover{
+    color: #0065FC;
+}
+
 .c4-footer{
     padding: 0;
     margin-top:0;
@@ -695,6 +711,10 @@ nav li:hover {
     top: -1px;
 }
 
+.c5-footer :hover{
+    color: #0065FC;
+}
+
 .c5-footer{
     padding: 0;
     margin-top:0;
@@ -749,6 +769,10 @@ nav li:hover {
     position: relative;
     right: 5px;
     top: -1px;
+}
+
+.c6-footer :hover{
+    color: #0065FC;
 }
 
 .c6-footer{
@@ -827,6 +851,10 @@ nav li:hover {
     gap: 0px;
 }
 
+.mp-card1:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .mp-c1-header{
     width:35%;
     margin:0;
@@ -879,6 +907,10 @@ nav li:hover {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     display:flex;
     flex-flow:row nowrap;
+}
+
+.mp-card2:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .mp-c2-header{
@@ -935,6 +967,10 @@ nav li:hover {
     flex-flow:row nowrap;
 }
 
+.mp-card3:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .mp-c3-header{
     width:40%;
     margin:0;
@@ -968,4 +1004,40 @@ nav li:hover {
 }
 .mp-c3-footer b{
     padding: 3px;
+}
+
+/* start of the activities section */
+
+.activities-container{
+    width: 100%;
+    padding-left:0;
+    margin-left: -10px;
+}
+
+.activities-container h3{
+
+}
+
+.a-wrapper-column-long{
+
+}
+
+.a-wrapper-column-short{
+
+}
+
+.a-card1{
+    
+}
+
+.a-c1-header{
+
+}
+
+.a-c1-header img{
+
+}
+
+.a-c1-footer{
+
 }
