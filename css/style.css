@@ -148,7 +148,7 @@ nav li:hover {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #f2f2f2;
+    border: 2.5px solid #f2f2f2;
     background-color: white;
     border-radius: 30px;
     width: 135px;
@@ -163,7 +163,7 @@ nav li:hover {
     overflow: visible;
     justify-content: center;
     align-items: center;
-    border: 2px solid #f2f2f2;
+    border: 2.5px solid #f2f2f2;
     background-color: white;
     border-radius: 30px;
     font-weight: bold;
@@ -343,6 +343,10 @@ nav li:hover {
     padding: 5px 25px;
 }
 
+.accom-card-container h3{
+    margin-bottom:0;
+}
+
 .grid-wrapper-row {
     display: flex;
     flex-flow: row nowrap;
@@ -352,6 +356,16 @@ nav li:hover {
     padding-right:0;
     padding-top:0;
 
+}
+
+.grid-wrapper-row2{
+    display: flex;
+    flex-flow: row nowrap;
+    width:100%;
+    gap: 20px;
+    padding-left: 5px;
+    padding-right:0;
+    padding-top:8px;
 }
 
 .grid-wrapper-column{
@@ -367,14 +381,17 @@ nav li:hover {
 }
 
 /* css for 3,4, 5 star rating */
+
 .three-star{
-    padding: 8px;
+    padding: 11px;
 }
 
 .three-star i{
     color:#0065FC;
-    font-size: 10px;
+    font-size: 9px;
     padding-left:0px;
+    padding-right:0px;
+    margin-left:-2px;
 }
 
 .three-star :nth-child(4), .three-star :nth-child(5){
@@ -382,15 +399,16 @@ nav li:hover {
 }
 
 .four-star{
-    padding-left: 10px;
-    width:45px;
+    padding-left: 11px;
+   
 }
 
 .four-star i{
     color:#0065FC;
-    font-size: 8px;
+    font-size: 9px;
     padding-left:0px;
     padding-right:0px;
+    margin-left:-2px;
 }
 
 .four-star :nth-child(5){
@@ -398,22 +416,31 @@ nav li:hover {
 }
 
 .five-star{
-    padding: 8px;
+    padding: 11px;
 }
 
 .five-star i{
     color:#0065FC;
-    font-size: 10px;
+    font-size: 9px;
     padding-left:0px;
+    padding-right:0px;
+    margin-left:-2px;
 }
 
+/* Start of the individual card styling */
 
 .card1 {
     background-color: white;
     border-radius: 13px;
-    width: 195px;
+    width: 200px;
     height: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
+
+.card1:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 
 .c1-header {
     width: 100%;
@@ -423,7 +450,7 @@ nav li:hover {
 }
 
 .c1-header img {
-    width: 185px;
+    width: 190px;
     height: 90px;
     padding: 0;
     margin: 0;
@@ -443,22 +470,14 @@ nav li:hover {
     height: auto;
 }
 
-.card-title{
-    font-size: 13px;
-    font-weight: bold;
-}
-.c1-footer h6 {
+
+.c1-footer h5 {
     width: 100%;
     margin: 0;
-    padding:0;
-    padding-left:10px;
-    padding-right: 0px;
-    padding-top:5px;
-    padding-bottom:5px;
 }
 
 .c1-footer p {
-    font-size: 10px;
+    font-size: 11.5px;
     width: 100%;
     margin: 0;
 }
@@ -472,8 +491,13 @@ nav li:hover {
 .card2{
     background-color: white;
     border-radius: 13px;
-    width: 195px;
+    width: 200px;
     height: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card2:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .c2-header{
@@ -484,13 +508,15 @@ nav li:hover {
 }
 
 .c2-header img{
-    width: 195px;
+    width: 190px;
     height: 90px;
     padding: 0;
     margin: 0;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
     position: relative;
+    right: 5px;
+    top: -1px;
 }
 
 .c2-footer{
@@ -508,7 +534,7 @@ nav li:hover {
 }
 
 .c2-footer p{
-    font-size: 10px;
+    font-size: 11.5px;
     width: 100%;
     margin: 0;
 }
@@ -522,8 +548,13 @@ nav li:hover {
 .card3{
     background-color: white;
     border-radius: 13px;
-    width: 195px;
+    width: 200px;
     height: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card3:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .c3-header{
@@ -534,13 +565,15 @@ nav li:hover {
 }
 
 .c3-header img{
-    width: 195px;
+    width: 190px;
     height: 90px;
     padding: 0;
     margin: 0;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
     position: relative;
+    right: 5px;
+    top: -1px;
 }
 
 .c3-footer{
@@ -559,7 +592,7 @@ nav li:hover {
 
 
 .c3-footer p{
-    font-size: 10px;
+    font-size: 11.5px;
     width: 100%;
     margin: 0;
 }
@@ -573,8 +606,13 @@ nav li:hover {
 .card4{
     background-color: white;
     border-radius: 13px;
-    width: 195px;
+    width: 200px;
     height: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card4:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .c4-header{
@@ -585,13 +623,15 @@ nav li:hover {
 }
 
 .c4-header img{
-    width: 195px;
+    width: 190px;
     height: 90px;
     padding: 0;
     margin: 0;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
     position: relative;
+    right: 5px;
+    top: -1px;
 }
 
 .c4-footer{
@@ -609,7 +649,7 @@ nav li:hover {
 }
 
 .c4-footer p{
-    font-size: 10px;
+    font-size: 11.5px;
     width: 100%;
     margin: 0;
 }
@@ -623,8 +663,13 @@ nav li:hover {
 .card5{
     background-color: white;
     border-radius: 13px;
-    width: 195px;
+    width: 200px;
     height: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card5:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .c5-header{
@@ -635,13 +680,15 @@ nav li:hover {
 }
 
 .c5-header img{
-    width: 195px;
+    width: 190px;
     height: 90px;
     padding: 0;
     margin: 0;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
     position: relative;
+    right: 5px;
+    top: -1px;
 }
 
 .c5-footer{
@@ -659,7 +706,7 @@ nav li:hover {
 }
 
 .c5-footer p{
-    font-size: 10px;
+    font-size: 11.5px;
     width: 100%;
     margin: 0;
 }
@@ -672,8 +719,13 @@ nav li:hover {
 .card6{
     background-color: white;
     border-radius: 13px;
-    width: 195px;
+    width: 200px;
     height: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card6:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .c6-header{
@@ -684,13 +736,15 @@ nav li:hover {
 }
 
 .c6-header img{
-    width: 195px;
+    width: 190px;
     height: 90px;
     padding: 0;
     margin: 0;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
     position: relative;
+    right: 5px;
+    top: -1px;
 }
 
 .c6-footer{
@@ -708,7 +762,7 @@ nav li:hover {
 }
 
 .c6-footer p{
-    font-size: 10px;
+    font-size: 11.5px;
     width: 100%;
     margin: 0;
 }
