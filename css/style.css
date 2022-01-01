@@ -879,6 +879,10 @@ nav li:hover {
     margin-top: -1px;
 }
 
+.mp-c1-footer :hover{
+    color: #0065FC;
+}
+
 .mp-c1-footer h5{
     width: 100%;
     margin: 0 0 0 0;
@@ -937,6 +941,10 @@ nav li:hover {
     margin-top: -1px;
 }
 
+.mp-c2-footer :hover{
+    color: #0065FC;
+}
+
 .mp-c2-footer h5{
     width: 100%;
     margin: 0 0 0 0;
@@ -985,6 +993,10 @@ nav li:hover {
     margin:0;
     padding-top:0px;
     margin-top: -1px;
+}
+
+.mp-c3-footer :hover{
+    color: #0065FC;
 }
 
 .mp-c3-footer h5{
