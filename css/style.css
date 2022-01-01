@@ -1039,7 +1039,11 @@ nav li:hover {
 }
 
 .a-card1{
-    
+    background-color: white;
+    border-radius: 13px;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .a-c1-header{
