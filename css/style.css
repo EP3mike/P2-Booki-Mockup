@@ -81,10 +81,10 @@ nav li:hover {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     width: 3.5%;
-    padding-bottom: 4px;
+    padding-bottom: 5px;
     padding-top: 5px;
     position: relative;
-    bottom: 1px;
+    bottom: 2px;
 }
 
 #gps-btn i {
@@ -1028,12 +1028,15 @@ nav li:hover {
 
 .activities-container h3{
     width:100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .a-wrapper-row {
     display: flex;
     flex-flow: row nowrap;
     width:100%;
+    gap: 25px;
     
 }
 
@@ -1042,6 +1045,8 @@ nav li:hover {
     flex-direction: column;
     width: 250px;
     height: auto;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .a-wrapper-column-short{
@@ -1049,15 +1054,17 @@ nav li:hover {
     flex-direction: column;
     width: 250px;
     height: auto;
-    gap:20px;
+    padding-left: 0;
+    padding-right: 0;
+    gap:35px;
 }
 
 /* start of the individual card css */
 .a-card1{
-    background-color:gray;
+    background-color: white;
     border-radius: 13px;
-    width: 230px;
-    height: 400px;
+    width: 245px;
+    height: 370px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
@@ -1084,10 +1091,10 @@ nav li:hover {
 }
 
 .a-card2{
-    background-color: gray;
+    background-color: white;
     border-radius: 13px;
-    width: 230px;
-    height: 250px;
+    width: 245px;
+    height: 185px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
@@ -1115,9 +1122,9 @@ nav li:hover {
 }
 
 .a-card3{
-    background-color: gray;
+    background-color: white;
     border-radius: 13px;
-    width: 230px;
+    width: 245px;
     height: 150px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -1140,6 +1147,97 @@ nav li:hover {
 }
 
 .a-c3-footer{
+    width: 100%;
+    height: auto;
+}
+
+.a-card4{
+    background-color:white;
+    border-radius: 13px;
+    width: 245px;
+    height: 370px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.a-c4-header{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.a-c4-header img{
+    width: 200px;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+.a-c4-footer{
+    width: 100%;
+    height: auto;
+}
+
+.a-card5{
+    background-color: white;
+    border-radius: 13px;
+    width: 245px;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.a-c5-header{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.a-c5-header img{
+    width: ;
+    height: ;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+
+}
+
+.a-c5-footer{
+    width: 100%;
+    height: auto;
+}
+
+.a-card6{
+    background-color: white;
+    border-radius: 13px;
+    width: 245px;
+    height: 185px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.a-c6-header{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.a-c6-header img{
+    width: ;
+    height: ;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+.a-c6-footer{
     width: 100%;
     height: auto;
 }
