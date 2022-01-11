@@ -6,6 +6,12 @@
     padding: 5px 10px;
 }
 
+body{
+    max-width: max-content;
+    margin:auto;
+    overflow-x: hidden;
+}
+
 i {
     font-family: "Font Awesome 5 Pro";
     font-weight: 900;
@@ -13,23 +19,54 @@ i {
     vertical-align: middle;
 }
 
+/* maybe a footer solution */
+html, body{
+    height: 100%;
+}
 
 /*  start of header css */
 header {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    gap: 73%;
+    /* align-items: baseline; */
+    width: 100%;
+    gap: 74%; 
+} 
+
+.h-img-wrapper{
+    width: 60%;
+}
+
+.h-img-wrapper img{
+    width: 93px;
+    height: 58px;
+    padding-left: 0;
+    margin: 0;
+}
+
+nav{
+    width: 50%;
+    /* height: auto; */
+    /* align-self: ; */
+}
+
+nav li:hover {
+    border-top: 3px solid #0065fc;
+}
+
+.nav-menu{
+    padding:0;
+    margin:0;
+    width: 200%;
 }
 
 .nav-menu li {
     display: inline;
     list-style-type: none;
-    padding-top: 37px;
-}
-
-nav li:hover {
-    border-top: 3px solid #0065fc;
+    padding-top: 17px;
+    /* padding-left: 0;
+    padding-right: 0; */
 }
 
 .nav-menu li a:link {
@@ -339,16 +376,18 @@ nav li:hover {
 }
 
 
-/* start of accom & most pop css */
+/* container for accom + most pop */
 .cards-container {
     padding-left: 0px;
     display:flex;
-    flex-flow: row no wrap;
+    flex-flow: row nowrap;
     width: 100%;
     gap: 35px;
 
 }
 
+
+/* start of accom section css */
 .accom-card-container {
     width: 700px;
     border-radius: 15px;
@@ -393,8 +432,9 @@ nav li:hover {
     margin:0;
 }
 
-/* css for 3,4,5 star rating */
 
+
+/* css for 3,4,5 star rating */
 .three-star{
     padding: 11px;
 }
@@ -440,8 +480,8 @@ nav li:hover {
     margin-left:-2px;
 }
 
-/* Start of the individual card styling for accommodations */
 
+/* Start of the individual card styling for accommodations */
 .card1 {
     background-color: white;
     border-radius: 13px;
@@ -809,10 +849,10 @@ nav li:hover {
 }
 
 
-/* start of the most popular section css */
 
+/* start of the most popular section css */
 .mp-card-container{
-    width:390px;
+    width: 335px;
     border-radius: 15px;
     background-color: #f2f2f2;
 }
@@ -847,8 +887,9 @@ nav li:hover {
     gap: 25px;
 }
 
-/* start of individual mp card css */
 
+
+/* start of individual mp card css */
 .mp-card1{
     background-color: white;
     border-radius: 13px;
@@ -993,9 +1034,9 @@ nav li:hover {
     margin:0;
 }
 
-.mp-c3-header img{
+/* .mp-c3-header img{
 
-}
+} */
 
 .mp-c3-footer{
     width:70%;
@@ -1027,8 +1068,9 @@ nav li:hover {
     padding: 3px;
 }
 
-/* start of the activities section */
 
+
+/* start of the activities section css */
 .activities-container{
     width: 100%;
     padding-left:0;
@@ -1045,7 +1087,7 @@ nav li:hover {
     display: flex;
     flex-flow: row nowrap;
     width:100%;
-    gap: 25px;
+    gap: 30px;
     
 }
 
@@ -1068,12 +1110,14 @@ nav li:hover {
     gap:35px;
 }
 
-/* start of the individual card css */
+
+
+/* start of the individual card css for activities */
 .a-card1{
     background-color: white;
     border-radius: 13px;
     width: 245px;
-    height: 370px;
+    height: 360px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
@@ -1085,25 +1129,38 @@ nav li:hover {
 }
 
 .a-c1-header img{
-    width: 200px;
-    height: 350px;
+    width: 245px;
+    height: 310px;
     padding: 0;
     margin: 0;
     object-fit: cover;
+    object-position: 48% 50%;
     border-radius: 10px 10px 0 0;
     position: relative;
+    right: 10px;
+    bottom: 5px;
 }
 
 .a-c1-footer{
     width: 100%;
     height: auto;
+    padding-left: 0;
+    padding-top: 8px;
+    
+}
+
+.a-c1-footer h5{
+    width:100%;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 3px;
 }
 
 .a-card2{
     background-color: white;
     border-radius: 13px;
     width: 245px;
-    height: 185px;
+    height: 175px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
@@ -1116,18 +1173,30 @@ nav li:hover {
 }
 
 .a-c2-header img{
-    width: 200px;
-    height: 200px;
+    width: 245px;
+    height: 130px;
     padding: 0;
     margin: 0;
     object-fit: cover;
+    object-position: 50% 45%;
     border-radius: 10px 10px 0 0;
     position: relative;
+    right: 10px;
+    bottom: 5px;
 }
 
 .a-c2-footer{
     width: 100%;
     height: auto;
+    padding-left: 0;
+    padding-top: 8px;
+}
+
+.a-c2-footer h5{
+    width:100%;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 3px;
 }
 
 .a-card3{
@@ -1146,25 +1215,37 @@ nav li:hover {
 }
 
 .a-c3-header img{
-    width: ;
-    height: ;
+    width: 245px;
+    height: 100px;
     padding: 0;
     margin: 0;
     object-fit: cover;
+    object-position: 50% 3%;
     border-radius: 10px 10px 0 0;
     position: relative;
+    right: 10px;
+    bottom: 5px;
 }
 
 .a-c3-footer{
     width: 100%;
     height: auto;
+    padding-left: 0;
+    padding-top: 8px;
+}
+
+.a-c3-footer h5{
+    width:100%;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 3px;
 }
 
 .a-card4{
     background-color:white;
     border-radius: 13px;
     width: 245px;
-    height: 370px;
+    height: 360px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
@@ -1176,18 +1257,30 @@ nav li:hover {
 }
 
 .a-c4-header img{
-    width: 200px;
-    height: 350px;
+    width: 245px;
+    height: 310px;
     padding: 0;
     margin: 0;
     object-fit: cover;
+    object-position: 49% 60%;
     border-radius: 10px 10px 0 0;
     position: relative;
+    right: 10px;
+    bottom: 5px;
 }
 
 .a-c4-footer{
     width: 100%;
     height: auto;
+    padding-left: 0;
+    padding-top: 8px;
+}
+
+.a-c4-footer h5{
+    width:100%;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 3px;
 }
 
 .a-card5{
@@ -1200,32 +1293,44 @@ nav li:hover {
 
 .a-c5-header{
     width: 100%;
-    height: auto;
+    height: 100px;
     padding: 0;
-    margin: 0;
+    margin-top:10px;
 }
 
 .a-c5-header img{
-    width: ;
-    height: ;
+    width: 245px;
+    height: 110px;
     padding: 0;
     margin: 0;
-    object-fit: cover;
     border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    object-position: 50% 6% ;
     position: relative;
+    right: 10px;
+    bottom: 15px;
 
 }
 
 .a-c5-footer{
     width: 100%;
     height: auto;
+    padding-left: 0;
+    padding-top: 8px;
+}
+
+.a-c5-footer h5{
+    width:100%;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 3px;
 }
 
 .a-card6{
     background-color: white;
     border-radius: 13px;
     width: 245px;
-    height: 185px;
+    height: 175px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
@@ -1237,16 +1342,105 @@ nav li:hover {
 }
 
 .a-c6-header img{
-    width: ;
-    height: ;
+    width: 245px;
+    height: 130px;
     padding: 0;
     margin: 0;
     object-fit: cover;
+    object-position: 50% 3%;
     border-radius: 10px 10px 0 0;
     position: relative;
+    right: 10px;
+    bottom: 5px;
 }
 
 .a-c6-footer{
     width: 100%;
     height: auto;
+    padding-left: 0;
+    padding-top: 8px;
+}
+
+.a-c6-footer h5{
+    width:100%;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 3px;
+}
+
+
+
+/* start of the footer css */
+.footer-wrap{
+    width: 100%;
+    height: 200px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #F2F2F2;
+}
+   
+
+.f-wrapper-row{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    gap: 10%;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+footer li a:link {
+    text-decoration: none;
+    color: #303234;
+}
+
+footer li a:visited {
+    text-decoration: none;
+    color: #303234;
+}
+
+footer li a:active {
+    text-decoration: none;
+    color: #303234;
+}
+
+footer li a:hover {
+    text-decoration: none;
+    color: #0065fc;
+}
+
+.f1{
+    width: 22%;
+}
+
+.f1 p, .f1 ul{width: 100%}
+
+.f1 ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.f2{
+    width: 22%;
+}
+
+.f2 p, .f2 ul{width: 100%}
+
+.f2 ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.f3{
+    width: 22%
+}
+
+.f3 p, .f3 ul{width: 100%}
+
+.f3 ul{
+    list-style: none;
+    padding-left: 0;
 }

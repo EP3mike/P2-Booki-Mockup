@@ -22,7 +22,10 @@
 <body>
 
     <header>
-        <img src="images/logo/Booki.png" alt="logo" width="90" height="60">
+        <div class="h-img-wrapper">
+           <img src="images/logo/Booki.png" alt="logo" width="191" height="60"> 
+        </div>
+        
         <nav>
             <ul class='nav-menu'>
                 <li><a href="#Accomodations">Accomodations</a></li>
@@ -30,14 +33,17 @@
             </ul>
 
         </nav>
+
+        
     </header>
+
     <main>
         <section class="welcome-container">
             <h3>Find a place for your dream vacation</h3>
             <p>Downtown or in nature</p>
         </section>
 
-        <section class="search-container">
+        <div class="search-container">
             <form>
                 <button type="button" id="gps-btn"><i class="fas
                             fa-map-marker-alt"></i></button>
@@ -45,11 +51,11 @@
                 <button type="submit" id="btn-search">Search</button>
             </form>
 
-        </section>
+        </div>
 
 
 
-        <section class="filter-container">
+        <div class="filter-container">
             <p>Filters</p>
             <!--<button class="btn active" onclick="filterSelection('Filters')">Filters</button>-->
             <button class="btn" onclick="filterSelection('Low cost')">
@@ -87,17 +93,17 @@
 
             </button>
 
-        </section>
+        </div>
 
 
 
-        <section class="tally-container">
+        <div class="tally-container">
             <div class="icon-info">
                 <i class="fas fa-info"></i>
             </div>
 
             <p>More than 500 accomodations are available in this city</p>
-        </section>
+        </div>
 
         <div class="cards-container">
             <section class="accom-card-container">
@@ -277,8 +283,8 @@
                         </div>
                     </div>
 
-                    <div class="mp-card2">
-                        <div class="mp-c2-header">
+                    <div class="mp-card1">
+                        <div class="mp-c1-header">
                             <img src="images/hebergements/2_large/bed-breakfast.jpg" alt="Au...B&B" width="50"
                                 height="100">
                         </div>
@@ -296,8 +302,8 @@
                         </div>
                     </div>
 
-                    <div class="mp-card3">
-                        <div class="mp-c2-header">
+                    <div class="mp-card1">
+                        <div class="mp-c1-header">
                             <img src="images/hebergements/2_large/et-blanc.jpg" alt="Blanc Hotel" width="50"
                                 height="100">
                         </div>
@@ -327,7 +333,7 @@
                 <div class="a-wrapper-column-long">
                     <div class="a-card1">
                         <div class="a-c1-header">
-                            <img src="" alt="old port" width="" height="">
+                            <img src="images/activites/2_large/old-port.jpg" alt="old port" width="218" height="290">
                         </div>
 
                         <div class="a-c1-footer">
@@ -340,7 +346,8 @@
                 <div class="a-wrapper-column-short">
                     <div class="a-card2">
                         <div class="a-c2-header">
-                            <img src="" alt="Pomegues Fort" width="" height="">
+                            <img src="images/activites/2_large/pomegues-fort.jpg" alt="Pomegues Fort" width="245"
+                                height="110">
                         </div>
 
                         <div class="a-c2-footer">
@@ -351,7 +358,8 @@
 
                     <div class="a-card3">
                         <div class="a-c3-header">
-                            <img src="" alt="Frioul Island" width="" height="">
+                            <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                                alt="Frioul Island" width="245" height="100">
                         </div>
 
                         <div class="a-c3-footer">
@@ -364,22 +372,24 @@
                 <div class="a-wrapper-column-long">
                     <div class="a-card4">
                         <div class="a-c4-header">
-                            <img src="" alt="Calanques National Park" width="" height="">
+                            <img src="images/activites/2_large/calanques-nat-prk.jpg" alt="Calanques National Park"
+                                width="245" height="320">
                         </div>
 
                         <div class="a-c4-footer">
                             <h5>Calanques National Park</h5>
                         </div>
                     </div>
--
+                    -
                 </div>
 
                 <div class="a-wrapper-column-short">
                     <div class="a-card5">
                         <div class="a-c5-header">
-                            <img src="" alt="Notre-Dame" width="" height="">
+                            <img src="images/activites/2_large/notre-dame.jpg" alt="Notre-Dame" width="245"
+                                height="110">
                         </div>
-                        
+
                         <div class="a-c5-footer">
                             <h5>Notre-Dame-de-la-Garde</h5>
                         </div>
@@ -388,7 +398,8 @@
 
                     <div class="a-card6">
                         <div class="a-c6-header">
-                            <img src="" alt="Longchamp Park" width="" height="">
+                            <img src="images/activites/2_large/longchamp.jpg" alt="Longchamp Park" width="245"
+                                height="130">
                         </div>
 
                         <div class="a-c6-footer">
@@ -404,28 +415,44 @@
     </main>
 
     <footer>
-        
+    
+        <div class="f-wrapper-row">
+            <div class="f1">
+                <p><strong>About</strong></p>
+                <ul>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">General Terms and Conditions</a></li>
+                    <li><a href="#">Data and Privacy</a></li>
+                </ul>
+    
+            </div>
+    
+            <div class="f2">
+                <p><strong>Our  Accommodations</strong></p>
+                <ul>
+                    <li><a href="#">Quality Assessment</a></li>
+                    <li><a href="#">You have a hotel?</a></li>
+    
+                </ul>
+    
+            </div>
+    
+            <div class="f3">
+                <p><strong>Assistance</strong></p>
+                <ul>
+                    <li><a href="#">Help Desk</a></li>
+                    <li><a href="#">Contact Us</a></li>
+    
+                </ul>
+    
+            </div>
+    
+        </div>
+    
+    
+    
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
 </body>
 
