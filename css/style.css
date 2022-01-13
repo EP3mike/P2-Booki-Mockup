@@ -48,7 +48,7 @@ nav li:hover {
 }
 
 .nav-menu{
-    padding: 0 0 0 10px;
+    padding: 0 0 0 23px;
     margin:0;
     width: 100%;
 }
@@ -414,14 +414,14 @@ form{
     display:flex;
     flex-flow: row nowrap;
     width: inherit;
-    gap: 35px;
+     gap: 26px;/* 35px before resize */
 
 }
 
 
 /* start of accom section css */
 .accom-card-container {
-    width: 700px;
+    width: 65%; /*  700px before % */
     border-radius: 15px;
     background-color: #f2f2f2;
     padding: 5px 25px;
@@ -884,7 +884,7 @@ form{
 
 /* start of the most popular section css */
 .mp-card-container{
-    width: 335px;
+     width: 30.0%;/* 335px before %*/
     border-radius: 15px;
     background-color: #f2f2f2;
 }
@@ -1104,7 +1104,7 @@ form{
 
 /* start of the activities section css */
 .activities-container{
-    width: 100%;
+    width: inherhit;
     padding-left:0;
     margin-left: -10px;
 }
@@ -1405,7 +1405,7 @@ form{
 /* start of the footer css */
 
 footer{
-    width: 100%;
+    width: inherit;
     height: auto;
     background-color: #F2F2F2;
 }
