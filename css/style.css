@@ -3,14 +3,14 @@
     width: 992px;
     font-family: "Raleway", sans-serif;
     color: #000000;
-    padding: 5px 10px;
+    padding: 10px 10px;
 }
 
-body{
-    max-width: max-content;
+/* body{
+    max-width: inherit;
     margin:auto;
     overflow-x: hidden;
-}
+} */
 
 i {
     font-family: "Font Awesome 5 Pro";
@@ -19,36 +19,28 @@ i {
     vertical-align: middle;
 }
 
-/* maybe a footer solution */
-html, body{
-    height: 100%;
-}
-
 /*  start of header css */
 header {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
-    /* align-items: baseline; */
-    width: 100%;
-    gap: 74%; 
-} 
+    width: inherit;
+    gap: 50.5%;
+    padding-bottom: 0;
+}
 
 .h-img-wrapper{
-    width: 60%;
+    width: 45%;
 }
 
 .h-img-wrapper img{
-    width: 93px;
+    width: 80px;
     height: 58px;
-    padding-left: 0;
-    margin: 0;
+    padding-left: 0px;
+    margin: 0 0 0 0px;
 }
 
 nav{
-    width: 50%;
-    /* height: auto; */
-    /* align-self: ; */
+    width: 55%;
 }
 
 nav li:hover {
@@ -56,17 +48,16 @@ nav li:hover {
 }
 
 .nav-menu{
-    padding:0;
+    padding: 0 0 0 10px;
     margin:0;
-    width: 200%;
+    width: 100%;
 }
 
 .nav-menu li {
     display: inline;
     list-style-type: none;
-    padding-top: 17px;
-    /* padding-left: 0;
-    padding-right: 0; */
+    padding-top: 42px;
+    font-size: 12px;
 }
 
 .nav-menu li a:link {
@@ -89,6 +80,11 @@ nav li:hover {
     color: #0065fc;
 }
 
+/* main section css for spacing purposes */
+main{
+    padding-top:0;
+    margin-top: -25px;
+}
 
 /* start of text above search bar css */
 .welcome-container {
@@ -98,9 +94,15 @@ nav li:hover {
     padding-left: 5px;
 }
 
+.welcome-container h4{
+    padding-top: 0;
+    padding-bottom: 1px;
+}
 .welcome-container p {
-    font-size: 12.5px;
+    font-size: 11.7px;
     padding-left: 9px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 
@@ -111,26 +113,33 @@ nav li:hover {
     right: 2px;
 }
 
+form{
+    width: 100%;
+    padding-top: 0;
+}
+
 #gps-btn {
     border: 1px solid #f2f2f2;
     background-color: #f2f2f2;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    width: 3.5%;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    width: 4%;
+    height: 33px;
+    padding-bottom: 1px;
+    padding-top: 1px;
     position: relative;
-    bottom: 2px;
+    bottom: 0.5px;
 }
 
 #gps-btn i {
     position: relative;
-    right: 9px;
+    right: 6px;
+    bottom: 1px;
     font-size: 12px;
 }
 
 #query {
-    width: 20%;
+    width: 18%;
     border: 1px solid #f2f2f2;
     position: relative;
     right: 6px;
@@ -143,7 +152,7 @@ nav li:hover {
     color: black;
     opacity: 1;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
     padding: 5px 0px;
 }
 
@@ -173,11 +182,12 @@ nav li:hover {
     padding-top: 10px;
     font-weight: bold;
     padding-left: 0px;
+    padding-top: 1px;
 }
 
 .filter-container p {
-    width: 6%;
-    font-size: 14px;
+    width: 5.5%;
+    font-size: 12px;
 }
 
 .btn {
@@ -187,14 +197,16 @@ nav li:hover {
     border: 2.5px solid #f2f2f2;
     background-color: white;
     border-radius: 30px;
-    width: 135px;
+    width: 120px;
     font-weight: bold;
     overflow: visible;
-    height: 42px;
-    gap: 3px;
+    height: 35px;
+    gap: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
-.btn :hover{
+.btn1-text:hover, .btn3-text:hover{
     background-color: #DEEBFF;
     color: #0065FC;
 }
@@ -208,37 +220,52 @@ nav li:hover {
     background-color: white;
     border-radius: 30px;
     font-weight: bold;
-    width: 160px;
-    height: 42px;
-    gap: 3px;
+    width: 150px;
+    height: 35px;
+    gap: 6px;
 }
 
-.btn2 :hover{
+.btn2-text:hover, .btn4-text:hover{
     background-color: #DEEBFF;
     color: #0065FC;
 }
+
+.btn3 {
+    display: inline-flex;
+    overflow: visible;
+    justify-content: center;
+    align-items: center;
+    border: 2.5px solid #f2f2f2;
+    background-color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    width: 140px;
+    height: 35px;
+    gap: 3px;
+}
+
 
 .icon-dollar {
     border-radius: 50%;
     overflow: visible;
     border: 1px solid #deebff;
     background-color: #deebff;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     position: relative;
-    right: 17px;
+    right: 12px;
 }
 
 .icon-dollar i {
     font-size: 14px;
     position: relative;
-    right: 11px;
-    bottom: -2px;
+    right: 12px;
+    bottom: 10px;
     color: #0065fc;
 }
 
 .btn1-text {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 900;
     text-align: left;
     white-space: nowrap;
@@ -254,22 +281,22 @@ nav li:hover {
     overflow: visible;
     border: 1px solid #deebff;
     background-color: #deebff;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     position: relative;
-    right: 18px;
+    right: 14px;
 }
 
 .icon-family i {
-    font-size: 15px;
+    font-size: 14px;
     position: relative;
     color: #0065fc;
-    right: 7px;
-    top: 2px;
+    right: 9px;
+    bottom: 10px;
 }
 
 .btn2-text {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 900;
     text-align: left;
     white-space: nowrap;
@@ -285,22 +312,22 @@ nav li:hover {
     overflow: visible;
     border: 1px solid #deebff;
     background-color: #deebff;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     position: relative;
-    right: 16px;
+    right: 9px;
 }
 
 .icon-romantic i {
-    font-size: 15px;
+    font-size: 14px;
     position: relative;
     color: #0065fc;
-    right: 8px;
-    top: 2px;
+    right: 10px;
+    bottom: 10px;
 }
 
 .btn3-text {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 900;
     text-align: left;
     white-space: nowrap;
@@ -308,7 +335,7 @@ nav li:hover {
     width: 90px;
     font-weight: bold;
     position: relative;
-    right: 8px;
+    right: 12px;
 }
 
 .icon-pet {
@@ -316,22 +343,22 @@ nav li:hover {
     overflow: visible;
     border: 1px solid #deebff;
     background-color: #deebff;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     position: relative;
     right: 16px;
 }
 
 .icon-pet i {
-    font-size: 15px;
+    font-size: 14px;
     position: relative;
     color: #0065fc;
-    right: 10px;
-    top: 1px;
+    right: 11px;
+    bottom: 10px;
 }
 
 .btn4-text {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 900;
     text-align: left;
     white-space: nowrap;
@@ -348,40 +375,45 @@ nav li:hover {
     display: flex;
     flex-flow: row nowrap;
     padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     gap: 0px;
     align-items: baseline;
+    
 }
-
 .tally-container p {
-    width: 330px;
-    font-size: 12.5px;
+    width: 300px;
+    font-size: 11.7px;
 }
 
 .icon-info {
     border: 1.5px solid #d3d3d3;
     border-radius: 50%;
-    width: 23px;
-    height: 23px;
+    width: 10px;
+    height: 10px;
     position: relative;
     left: 2px;
-    top: 6px;
+    top: 12px;
+    
 }
 
 .icon-info i {
     color: #0065fc;
     font-size: 10px;
     position: relative;
-    right: 12px;
-    top: -5px;
+    right: 2px;
+    bottom: 10px;
+    padding:0;
 }
 
 
 /* container for accom + most pop */
-.cards-container {
+.cards-wrapper {
     padding-left: 0px;
+    padding-top: 1px;
     display:flex;
     flex-flow: row nowrap;
-    width: 100%;
+    width: inherit;
     gap: 35px;
 
 }
@@ -453,7 +485,7 @@ nav li:hover {
 
 .four-star{
     padding-left: 11px;
-   
+
 }
 
 .four-star i{
@@ -938,7 +970,7 @@ nav li:hover {
     margin: 0 0 0 0;
     padding-top:0;
     padding-top: 2px;
-    line-height: 30px; 
+    line-height: 30px;
 }
 
 .mp-c1-footer p{
@@ -984,7 +1016,7 @@ nav li:hover {
     right: 15px;
 }
 
-.mp-c2-footer{ 
+.mp-c2-footer{
     width:70%;
     margin:0;
     padding-top:0px;
@@ -1012,7 +1044,7 @@ nav li:hover {
 
 .mp-c2-footer b{
     padding: 3px;
-    
+
 }
 
 .mp-card3{
@@ -1054,7 +1086,7 @@ nav li:hover {
     margin: 0 0 0 0;
     padding-top:10px;
 
-    
+
 }
 
 .mp-c3-footer p{
@@ -1088,7 +1120,7 @@ nav li:hover {
     flex-flow: row nowrap;
     width:100%;
     gap: 30px;
-    
+
 }
 
 .a-wrapper-column-long{
@@ -1146,7 +1178,7 @@ nav li:hover {
     height: auto;
     padding-left: 0;
     padding-top: 8px;
-    
+
 }
 
 .a-c1-footer h5{
@@ -1371,17 +1403,13 @@ nav li:hover {
 
 
 /* start of the footer css */
-.footer-wrap{
-    width: 100%;
-    height: 200px;
-}
 
 footer{
     width: 100%;
     height: auto;
     background-color: #F2F2F2;
 }
-   
+
 
 .f-wrapper-row{
     display: flex;
