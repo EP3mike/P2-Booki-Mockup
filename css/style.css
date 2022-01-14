@@ -1143,7 +1143,7 @@ form{
     margin-left: -10px;
 }
 
-.activities-container h3{
+.activities-container h4{
     width:100%;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -1153,14 +1153,14 @@ form{
     display: flex;
     flex-flow: row nowrap;
     width:100%;
-    gap: 30px;
+    gap: 25px;
 
 }
 
 .a-wrapper-column-long{
     display:flex;
     flex-direction: column;
-    width: 250px;
+    /* width: 250px; */
     height: auto;
     padding-left: 0;
     padding-right: 0;
@@ -1169,7 +1169,7 @@ form{
 .a-wrapper-column-short{
     display:flex;
     flex-direction: column;
-    width: 250px;
+    /* width: 250px; */
     height: auto;
     padding-left: 0;
     padding-right: 0;
@@ -1182,7 +1182,7 @@ form{
 .a-card1{
     background-color: white;
     border-radius: 13px;
-    width: 245px;
+    width: 220px;
     height: 360px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -1195,23 +1195,23 @@ form{
 }
 
 .a-c1-header img{
-    width: 245px;
+    width: 220px;
     height: 310px;
     padding: 0;
     margin: 0;
     object-fit: cover;
-    object-position: 48% 50%;
+    object-position: 49% 50%;
     border-radius: 10px 10px 0 0;
     position: relative;
     right: 10px;
-    bottom: 5px;
+    bottom: 10px;
 }
 
 .a-c1-footer{
     width: 100%;
     height: auto;
     padding-left: 0;
-    padding-top: 8px;
+    padding-top: 5px;
 
 }
 
@@ -1225,7 +1225,7 @@ form{
 .a-card2{
     background-color: white;
     border-radius: 13px;
-    width: 245px;
+    width: 220px;
     height: 175px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -1239,7 +1239,7 @@ form{
 }
 
 .a-c2-header img{
-    width: 245px;
+    width: 220px;
     height: 130px;
     padding: 0;
     margin: 0;
@@ -1248,14 +1248,14 @@ form{
     border-radius: 10px 10px 0 0;
     position: relative;
     right: 10px;
-    bottom: 5px;
+    bottom: 10px;
 }
 
 .a-c2-footer{
     width: 100%;
     height: auto;
     padding-left: 0;
-    padding-top: 8px;
+    padding-top: 2px;
 }
 
 .a-c2-footer h5{
@@ -1268,7 +1268,7 @@ form{
 .a-card3{
     background-color: white;
     border-radius: 13px;
-    width: 245px;
+    width: 220px;
     height: 150px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -1281,7 +1281,7 @@ form{
 }
 
 .a-c3-header img{
-    width: 245px;
+    width: 220px;
     height: 100px;
     padding: 0;
     margin: 0;
@@ -1290,14 +1290,14 @@ form{
     border-radius: 10px 10px 0 0;
     position: relative;
     right: 10px;
-    bottom: 5px;
+    bottom: 10px;
 }
 
 .a-c3-footer{
     width: 100%;
     height: auto;
     padding-left: 0;
-    padding-top: 8px;
+    padding-top: 6px;
 }
 
 .a-c3-footer h5{
@@ -1310,7 +1310,7 @@ form{
 .a-card4{
     background-color:white;
     border-radius: 13px;
-    width: 245px;
+    width: 220px;
     height: 360px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -1323,7 +1323,7 @@ form{
 }
 
 .a-c4-header img{
-    width: 245px;
+    width: 220px;
     height: 310px;
     padding: 0;
     margin: 0;
@@ -1332,14 +1332,14 @@ form{
     border-radius: 10px 10px 0 0;
     position: relative;
     right: 10px;
-    bottom: 5px;
+    bottom: 10px;
 }
 
 .a-c4-footer{
     width: 100%;
     height: auto;
     padding-left: 0;
-    padding-top: 8px;
+    padding-top: 5px;
 }
 
 .a-c4-footer h5{
@@ -1352,7 +1352,7 @@ form{
 .a-card5{
     background-color: white;
     border-radius: 13px;
-    width: 245px;
+    width: 220px;
     height: 150px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -1365,16 +1365,16 @@ form{
 }
 
 .a-c5-header img{
-    width: 245px;
-    height: 110px;
+    width: 220px;
+    height: 100px;
     padding: 0;
     margin: 0;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
-    object-position: 50% 6% ;
+    object-position: 50% 6%;
     position: relative;
     right: 10px;
-    bottom: 15px;
+    bottom: 20px;
 
 }
 
@@ -1382,7 +1382,8 @@ form{
     width: 100%;
     height: auto;
     padding-left: 0;
-    padding-top: 8px;
+    padding-top: 0px;
+    margin-top: -2px;
 }
 
 .a-c5-footer h5{
@@ -1395,7 +1396,7 @@ form{
 .a-card6{
     background-color: white;
     border-radius: 13px;
-    width: 245px;
+    width: 220px;
     height: 175px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -1408,7 +1409,7 @@ form{
 }
 
 .a-c6-header img{
-    width: 245px;
+    width: 220px;
     height: 130px;
     padding: 0;
     margin: 0;
@@ -1417,14 +1418,15 @@ form{
     border-radius: 10px 10px 0 0;
     position: relative;
     right: 10px;
-    bottom: 5px;
+    bottom: 10px;
 }
 
 .a-c6-footer{
     width: 100%;
     height: auto;
     padding-left: 0;
-    padding-top: 8px;
+    padding-top: 1px;
+    margin-top: -1px;
 }
 
 .a-c6-footer h5{
@@ -1438,10 +1440,15 @@ form{
 
 /* start of the footer css */
 
+
+
 footer{
-    width: inherit;
+    width: 104%;
     height: auto;
     background-color: #F2F2F2;
+    font-size: 12px;
+    padding-left: 0;
+    margin-left: -18px;
 }
 
 
@@ -1451,7 +1458,7 @@ footer{
     width: 100%;
     gap: 10%;
     padding-left: 0;
-    margin-left: 0;
+    margin-left: -2px;
 }
 
 footer li a:link {
@@ -1475,34 +1482,51 @@ footer li a:hover {
 }
 
 .f1{
-    width: 22%;
+    width: 24%;
 }
 
-.f1 p, .f1 ul{width: 100%}
+.f1 p{
+    width: 100%;
+    padding-bottom: 0;
+    
+}
 
 .f1 ul{
+    width: 100%;
     list-style: none;
     padding-left: 0;
+    padding-top:0;
 }
 
 .f2{
     width: 22%;
 }
 
-.f2 p, .f2 ul{width: 100%}
+.f2 p{
+    width: 100%;
+    padding-bottom: 0;
+
+}
 
 .f2 ul{
+    width: 100%;
     list-style: none;
     padding-left: 0;
+    padding-top: 0;
 }
 
 .f3{
-    width: 22%
+    width: 23%
 }
 
-.f3 p, .f3 ul{width: 100%}
+.f3 p{
+    width: 100%;
+    padding-bottom: 0;
+}
 
 .f3 ul{
+    width: 100%;
     list-style: none;
     padding-left: 0;
+    padding-top: 0;
 }
