@@ -565,6 +565,20 @@ form {
 
 }
 
+/* responsive css for accom+mp wrapper + reorder */
+@media only screen and (max-width: 768px){
+    .cards-wrapper{
+       flex-flow: column nowrap; 
+    }
+    
+    .accom-card-container{
+        order: 2;
+    }
+
+    .mp-card-container{
+        order: 1;
+    }
+}
 
 /* start of accom section css */
 .accom-card-container {
@@ -1050,6 +1064,10 @@ form {
     padding: 3px;
 }
 
+/* responsive css for accom section */
+@media only screen and (max-width: 768px){
+
+}
 
 
 /* start of the most popular section css */
@@ -1095,6 +1113,15 @@ form {
     gap: 30px;
 }
 
+/* responsive css for mp section */
+@media only screen and (max-width: 768px){
+    .cards-wrapper{
+        
+    }
+    .mp-card-container{
+        width: 100%;
+    }
+}
 
 
 /* start of individual mp card css */
@@ -1326,6 +1353,10 @@ form {
     gap: 35px;
 }
 
+/* responsive css for activities section */
+@media only screen and (max-width: 768px){
+
+}
 
 
 /* start of the individual card css for activities */
