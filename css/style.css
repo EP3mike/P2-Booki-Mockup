@@ -1138,8 +1138,8 @@ form{
 
 /* start of the activities section css */
 .activities-container{
-    width: inherhit;
-    padding-left:0;
+    width: inherit;
+    padding-left: 0;
     margin-left: -10px;
 }
 
