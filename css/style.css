@@ -1790,7 +1790,8 @@ form {
             display: none;
         }
 
-        .accom-card-container h2 {
+        #mobile-header {
+            display: initial;
             padding-left: 12px;
         }
 
@@ -2605,14 +2606,6 @@ form {
             padding-top: 10px;
         }
 
-
-
-
-
-
-
-
-
     }
 }
 
@@ -2954,6 +2947,7 @@ form {
     .activities-container {
         width: 85%;
         height: auto;
+        padding-bottom: 55px;
     }
 
     .activities-container h1 {
@@ -2972,10 +2966,6 @@ form {
         padding-top: 25px;
         padding-left: 18px;
     }
-
-    .a-wrapper-column-long {}
-
-    .a-wrapper-column-short {}
 
     .a-card1 {
         border-radius: 25px;
@@ -3172,6 +3162,7 @@ form {
         .activities-container {
             padding-top: 35px ;
         }
+
         #a-mobile-header {
             display: initial;
             width: 100%;
@@ -3461,12 +3452,38 @@ footer li a:hover {
 @media only screen and (max-width: 768px) {
 
     footer {
-        width: 51%;
+        width: 100%;
+        font-size: 24px;
     }
 
     .f-wrapper-row {
         flex-flow: column wrap;
+        padding-left: 38px;
+        padding-top: 25px;
     }
 
+    .f1 {
+        width: 100%;
+    }
 
+    .f2 {
+        width: 100%;
+    }
+
+    .f3 {
+        width: 100%;
+    }
+
+    @media only screen and (max-width: 500px) {
+        footer {
+            font-size: 18px;
+        }
+
+        .f-wrapper-row {
+            padding-left: 32px;
+        }
+
+
+        
+    }
 }
