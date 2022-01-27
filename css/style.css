@@ -982,6 +982,16 @@ form {
     padding: 5px 25px;
 }
 
+#accom-anchor {
+    width: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+/* .accom-card-container a {
+    
+} */
+
 .accom-card-container h4 {
     width: 100%;
     margin-bottom: 0;
@@ -1502,7 +1512,7 @@ form {
 /* responsive css for accom section tablet + mobile */
 @media only screen and (max-width: 768px) {
     .accom-card-container {
-        width: 85%;
+        width: 100%;
         height: auto;
         background-color: white;
         padding-top: 40px;
@@ -1512,7 +1522,7 @@ form {
         display: none;
     }
 
-    #mobile-header {
+    #mobile-header-accom {
         display: none;
     }
 
@@ -1543,50 +1553,53 @@ form {
     }
 
     .three-star {
-        padding-left: 6px;
+        padding-left: 8px;
     }
 
     .three-star i {
-        font-size: 16px;
-        margin-left: -3px;
+        font-size: 16.5px;
+        margin-left: -15px;
+        padding-left: 10px;
     }
 
     .four-star {
-        padding-left: 6px;
+        padding-left: 8px;
     }
 
     .four-star i {
-        font-size: 16px;
-        margin-left: -3px;
+        font-size: 16.5px;
+        margin-left: -15px;
+        padding-left: 10px
     }
 
     .five-star {
-        padding-left: 6px;
+        padding-left: 8px;
     }
 
     .five-star i {
-        font-size: 16px;
-        margin-left: -3px;
+        font-size: 16.5px;
+        margin-left: -15px;
+        padding-left: 10px
     }
 
     .card1 {
         border-radius: 25px;
-        width: 71%;
-        height: 280px;
+        width: 88.5%;
+        height: 325px;
     }
 
     .c1-header img {
-        width: 525px;
-        height: 170px;
+        width: 660px;
+        height: 200px;
         border-radius: 20px 20px 0 0;
         right: -5px;
         top: 2px;
     }
 
     .c1-footer {
-        margin-top: 10px;
-        margin-left: 10px;
-        padding-top: 5px;
+        margin-top: 25px;
+        margin-left: 35px;
+        padding-top: 0px;
     }
 
     .c1-footer h2 {
@@ -1601,28 +1614,28 @@ form {
 
     .c1-footer p {
         font-size: 21px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .card2 {
         border-radius: 25px;
-        width: 71%;
-        height: 280px;
+        width: 88.5%;
+        height: 325px;
     }
 
     .c2-header img {
-        width: 525px;
-        height: 170px;
+        width: 660px;
+        height: 200px;
         border-radius: 20px 20px 0 0;
         right: -5px;
         top: 2px;
     }
 
     .c2-footer {
-        margin-top: 10px;
-        margin-left: 10px;
-        padding-top: 5px;
+        margin-top: 25px;
+        margin-left: 35px;
+        padding-top: 0px;
     }
 
     .c2-footer h2 {
@@ -1637,28 +1650,28 @@ form {
 
     .c2-footer p {
         font-size: 21px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .card3 {
         border-radius: 25px;
-        width: 71%;
-        height: 280px;
+        width: 88.5%;
+        height: 325px;
     }
 
     .c3-header img {
-        width: 525px;
-        height: 170px;
+        width: 660px;
+        height: 200px;
         border-radius: 20px 20px 0 0;
         right: -5px;
         top: 2px;
     }
 
     .c3-footer {
-        margin-top: 10px;
-        margin-left: 10px;
-        padding-top: 5px;
+        margin-top: 25px;
+        margin-left: 35px;
+        padding-top: 0px;
     }
 
     .c3-footer h2 {
@@ -1673,28 +1686,28 @@ form {
 
     .c3-footer p {
         font-size: 21px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .card4 {
         border-radius: 25px;
-        width: 71%;
-        height: 280px;
+        width: 88.5%;
+        height: 325px;
     }
 
     .c4-header img {
-        width: 525px;
-        height: 170px;
+        width: 660px;
+        height: 200px;
         border-radius: 20px 20px 0 0;
         right: -5px;
         top: 2px;
     }
 
     .c4-footer {
-        margin-top: 10px;
-        margin-left: 10px;
-        padding-top: 5px;
+        margin-top: 25px;
+        margin-left: 35px;
+        padding-top: 0px;
     }
 
     .c4-footer h2 {
@@ -1709,28 +1722,28 @@ form {
 
     .c4-footer p {
         font-size: 21px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .card5 {
         border-radius: 25px;
-        width: 71%;
-        height: 280px;
+        width: 88.5%;
+        height: 325px;
     }
 
     .c5-header img {
-        width: 525px;
-        height: 170px;
+        width: 660px;
+        height: 200px;
         border-radius: 20px 20px 0 0;
         right: -5px;
         top: 2px;
     }
 
     .c5-footer {
-        margin-top: 10px;
-        margin-left: 10px;
-        padding-top: 5px;
+        margin-top: 25px;
+        margin-left: 35px;
+        padding-top: 0px;
     }
 
     .c5-footer h2 {
@@ -1745,28 +1758,28 @@ form {
 
     .c5-footer p {
         font-size: 21px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .card6 {
         border-radius: 25px;
-        width: 71%;
-        height: 280px;
+        width: 88.5%;
+        height: 325px;
     }
 
     .c6-header img {
-        width: 525px;
-        height: 170px;
+        width: 660px;
+        height: 200px;
         border-radius: 20px 20px 0 0;
         right: -5px;
         top: 2px;
     }
 
     .c6-footer {
-        margin-top: 10px;
-        margin-left: 10px;
-        padding-top: 5px;
+        margin-top: 25px;
+        margin-left: 35px;
+        padding-top: 0px;
     }
 
     .c6-footer h2 {
@@ -1781,8 +1794,8 @@ form {
 
     .c6-footer p {
         font-size: 21px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     @media only screen and (max-width: 500px) {
@@ -1790,36 +1803,39 @@ form {
             display: none;
         }
 
-        #mobile-header {
+        #mobile-header-accom {
             display: initial;
             padding-left: 12px;
         }
 
         .three-star {
-            padding-left: 2px;
+            padding-left: 0px;
+            margin-left: -2px;
         }
 
         .three-star i {
             font-size: 13px;
-            margin-left: 0;
+            margin-left: -5px;
         }
 
         .four-star {
-            padding-left: 1px;
+            padding-left: 0px;
+            margin-left: -2px;
         }
 
         .four-star i {
             font-size: 13px;
-            margin-left: 0;
+            margin-left: -5px;
         }
 
         .five-star {
-            padding-left: 1px;
+            padding-left: 0px;
+            margin-left: -2px;
         }
 
         .five-star i {
             font-size: 13px;
-            margin-left: 0;
+            margin-left: -5px;
         }
 
         .card1 {
@@ -2068,6 +2084,51 @@ form {
     margin-bottom: 0px;
 }
 
+.mp-three-star {
+    padding-left: 11px;
+}
+
+.mp-three-star i {
+    color: #0065FC;
+    font-size: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: -2px;
+}
+
+.mp-three-star :nth-child(4), .three-star :nth-child(5) {
+    color: #F2F2F2;
+}
+
+.mp-four-star {
+    padding-left: 11px;
+
+}
+
+.mp-four-star i {
+    color: #0065FC;
+    font-size: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: -2px;
+}
+
+.mp-four-star :nth-child(5) {
+    color: #F2F2F2;
+}
+
+.mp-five-star {
+    padding: 11px;
+}
+
+.mp-five-star i {
+    color: #0065FC;
+    font-size: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: -2px;
+}
+
 /* media queries to hide elements for mobile + tablet in desktop view */
 @media only screen and (min-width: 769px) {
     .mp-title-container h1 {
@@ -2103,7 +2164,50 @@ form {
     }
 }
 
+.mp-three-star {
+    padding-left: 11px;
+}
 
+.mp-three-star i {
+    color: #0065FC;
+    font-size: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: -2px;
+}
+
+.mp-three-star :nth-child(4), .three-star :nth-child(5) {
+    color: #F2F2F2;
+}
+
+.mp-four-star {
+    padding-left: 11px;
+
+}
+
+.mp-four-star i {
+    color: #0065FC;
+    font-size: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: -2px;
+}
+
+.mp-four-star :nth-child(5) {
+    color: #F2F2F2;
+}
+
+.mp-five-star {
+    padding: 11px;
+}
+
+.mp-five-star i {
+    color: #0065FC;
+    font-size: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: -2px;
+}
 
 .mp-title-container h4 {
     margin-bottom: 0px;
@@ -2324,14 +2428,14 @@ form {
     }
 
     .mp-card-container {
-        width: 85%;
+        width: 100%;
         height: auto;
         border-radius: 0;
     }
 
     .mp-title-container h1 {
         padding-left: 25px;
-        width: 85%;
+        width: 92%;
     }
 
     .mp-title-container h2 {
@@ -2347,13 +2451,41 @@ form {
         padding-left: 15px;
     }
 
+    .mp-three-star {
+        padding-left: 6px;
+    }
+
+    .mp-three-star i {
+        font-size: 16px;
+        margin-left: -3px;
+    }
+
+    .mp-four-star {
+        padding-left: 6px;
+    }
+
+    .mp-four-star i {
+        font-size: 16px;
+        margin-left: -3px;
+    }
+
+    .mp-five-star {
+        padding-left: 6px;
+    }
+
+    .mp-five-star i {
+        font-size: 16px;
+        margin-left: -3px;
+    }
+
     .mp-wrapper-column {
         padding-left: 35px;
+        padding-bottom: 45px;
     }
 
     .mp-card1 {
-        width: 90%;
-        height: 220px;
+        width: 95%;
+        height: 265px;
         border-radius: 25px;
     }
 
@@ -2362,15 +2494,15 @@ form {
     }
 
     .mp-c1-header img {
-        width: 195px;
-        height: 200px;
+        width: 215px;
+        height: 244px;
         bottom: 0px;
         right: 0px;
         border-radius: 20px 0 0 20px;
     }
 
     .mp-c1-footer {
-        width: 60%;
+        width: 55%;
     }
 
     .mp-c1-footer h4 {
@@ -2383,11 +2515,13 @@ form {
 
     .mp-c1-footer p {
         font-size: 22px;
+        padding-top: 35px;
+        padding-bottom: 75px;
     }
 
     .mp-card2 {
-        width: 90%;
-        height: 220px;
+        width: 95%;
+        height: 265px;
         border-radius: 25px;
     }
 
@@ -2396,15 +2530,15 @@ form {
     }
 
     .mp-c2-header img {
-        width: 195px;
-        height: 200px;
+        width: 215px;
+        height: 244px;
         bottom: 0px;
         right: 0px;
         border-radius: 20px 0 0 20px;
     }
 
     .mp-c2-footer {
-        width: 80%;
+        width: 65%;
     }
 
     .mp-c2-footer h2 {
@@ -2421,11 +2555,12 @@ form {
 
     .mp-c2-footer p {
         font-size: 22px;
+        padding-bottom: 75px;
     }
 
     .mp-card3 {
-        width: 90%;
-        height: 220px;
+        width: 95%;
+        height: 265px;
         border-radius: 25px;
     }
 
@@ -2434,15 +2569,15 @@ form {
     }
 
     .mp-c3-header img {
-        width: 195px;
-        height: 200px;
+        width: 215px;
+        height: 244px;
         bottom: 0px;
         right: 0px;
         border-radius: 20px 0 0 20px;
     }
 
     .mp-c3-footer {
-        width: 60%;
+        width: 55%;
     }
 
     .mp-c3-footer h4 {
@@ -2455,9 +2590,38 @@ form {
 
     .mp-c3-footer p {
         font-size: 22px;
+        padding-bottom: 105px;
     }
 
+
     @media only screen and (max-width: 500px) {
+        .mp-three-star {
+            padding-left: 2px;
+        }
+
+        .mp-three-star i {
+            font-size: 13px;
+            margin-left: 0;
+        }
+
+        .mp-four-star {
+            padding-left: 1px;
+        }
+
+        .mp-four-star i {
+            font-size: 13px;
+            margin-left: 0;
+        }
+
+        .mp-five-star {
+            padding-left: 1px;
+        }
+
+        .mp-five-star i {
+            font-size: 13px;
+            margin-left: 0;
+        }
+
         .cards-wrapper {
             /* margin-left: 0px; */
         }
@@ -2474,6 +2638,33 @@ form {
             display: initial;
             padding-left: 25px;
             width: 100%;
+        }
+
+        .mp-three-star {
+            padding-left: 2px;
+        }
+
+        .mp-three-star i {
+            font-size: 13px;
+            margin-left: 0;
+        }
+
+        .mp-four-star {
+            padding-left: 1px;
+        }
+
+        .mp-four-star i {
+            font-size: 13px;
+            margin-left: 0;
+        }
+
+        .mp-five-star {
+            padding-left: 1px;
+        }
+
+        .mp-five-star i {
+            font-size: 13px;
+            margin-left: 0;
         }
 
         .mp-wrapper-column {
@@ -2522,7 +2713,8 @@ form {
 
         .mp-c1-footer p {
             font-size: 15px;
-            padding-top: 25px;
+            padding-top: 35px;
+            padding-bottom: 55px;
         }
 
         .mp-card2 {
@@ -2563,7 +2755,8 @@ form {
         .mp-c2-footer p {
             font-size: 15px;
             padding-left: 0;
-            padding-top: 10px;
+            padding-top: 15px;
+            padding-bottom: 55px;
         }
 
         .mp-card3 {
@@ -2603,7 +2796,8 @@ form {
         .mp-c3-footer p {
             font-size: 15px;
             padding-left: 0;
-            padding-top: 10px;
+            padding-top: 15px;
+            padding-bottom: 55px;
         }
 
     }
@@ -2616,6 +2810,12 @@ form {
     width: inherit;
     padding-left: 0;
     margin-left: -10px;
+}
+
+#activity-anchor {
+    width: inherit;
+    padding: 0;
+    margin: 0;
 }
 
 .activities-container h4 {
@@ -2945,7 +3145,7 @@ form {
 /* responsive css for activities section tablet + mobile*/
 @media only screen and (max-width: 768px) {
     .activities-container {
-        width: 85%;
+        width: 100%;
         height: auto;
         padding-bottom: 55px;
     }
@@ -2965,21 +3165,22 @@ form {
         flex-flow: column wrap;
         padding-top: 25px;
         padding-left: 18px;
+        gap: 40px;
     }
 
     .a-card1 {
         border-radius: 25px;
-        width: 71%;
-        height: 280px;
+        width: 88%;
+        height: 325px;
     }
     
     .a-c1-header img {
-        width: 545px;
-        height: 200px;
+        width: 676px;
+        height: 245px;
         object-position: 49% 50%;
         border-radius: 20px 20px 0 0;
         right: 5px;
-        bottom: 10px;
+        bottom: 8px;
     }
     
     .a-c1-footer {
@@ -3000,17 +3201,17 @@ form {
 
     .a-card2 {
         border-radius: 25px;
-        width: 71%;
-        height: 280px;
+        width: 88%;
+        height: 325px;
     }
     
     .a-c2-header img {
-        width: 545px;
-        height: 200px;
+        width: 676px;
+        height: 245px;
         object-position: 49% 50%;
         border-radius: 20px 20px 0 0;
         right: 5px;
-        bottom: 10px;
+        bottom: 8px;
     }
     
     .a-c2-footer {
@@ -3031,17 +3232,17 @@ form {
     
     .a-card3 {
         border-radius: 25px;
-        width: 71%;
-        height: 280px;
+        width: 88%;
+        height: 325px;
     }
     
     .a-c3-header img {
-        width: 545px;
-        height: 200px;
+        width: 676px;
+        height: 245px;
         object-position: 49% 50%;
         border-radius: 20px 20px 0 0;
         right: 5px;
-        bottom: 10px;
+        bottom: 8px;
     }
     
     .a-c3-footer {
@@ -3062,17 +3263,17 @@ form {
 
     .a-card4 {
         border-radius: 25px;
-        width: 71%;
-        height: 280px;
+        width: 88%;
+        height: 325px;
     }
     
     .a-c4-header img {
-        width: 545px;
-        height: 200px;
+        width: 676px;
+        height: 245px;
         object-position: 49% 50%;
         border-radius: 20px 20px 0 0;
         right: 5px;
-        bottom: 10px;
+        bottom: 8px;
     }
     
     .a-c4-footer {
@@ -3093,21 +3294,21 @@ form {
 
     .a-card5 {
         border-radius: 25px;
-        width: 71%;
-        height: 280px;
+        width: 88%;
+        height: 325px;
     }
 
-    .a-c5-header {
+     .a-c5-header {
         height: auto;
     }
-    
+
     .a-c5-header img {
-        width: 545px;
-        height: 205px;
+        width: 676px;
+        height: 245px;
         object-position: 49% 50%;
         border-radius: 20px 20px 0 0;
         right: 5px;
-        bottom: 10px;
+        bottom: 15px;
     }
     
     .a-c5-footer {
@@ -3129,17 +3330,17 @@ form {
 
     .a-card6 {
         border-radius: 25px;
-        width: 71%;
-        height: 280px;
+        width: 88%;
+        height: 325px;
     }
     
     .a-c6-header img {
-        width: 545px;
-        height: 200px;
+        width: 676px;
+        height: 245px;
         object-position: 49% 50%;
         border-radius: 20px 20px 0 0;
         right: 5px;
-        bottom: 10px;
+        bottom: 8px;
     }
     
     .a-c6-footer {
@@ -3452,13 +3653,13 @@ footer li a:hover {
 @media only screen and (max-width: 768px) {
 
     footer {
-        width: 100%;
+        width: 103%;
         font-size: 24px;
     }
 
     .f-wrapper-row {
         flex-flow: column wrap;
-        padding-left: 38px;
+        padding-left: 40px;
         padding-top: 25px;
     }
 
