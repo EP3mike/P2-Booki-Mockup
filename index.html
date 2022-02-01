@@ -25,11 +25,15 @@
         <div class="h-img-wrapper">
            <img src="images/logo/Booki.png" alt="logo" width="191" height="60"> 
         </div>
+
+        <div class="h-img-wrapper2">
+            <img src="images/logo/Booki@3x.png" alt="mobile logo" width="285" height="135">
+        </div>
         
         <nav>
             <ul class='nav-menu'>
-                <li><a href="#Accomodations">Accomodations</a></li>
-                <li><a href="#Activities">Activities</a></li>
+                <li><a href="#accom-anchor">Accomodations</a></li>
+                <li><a href="#activity-anchor">Activities</a></li>
             </ul>
 
         </nav>
@@ -39,6 +43,8 @@
 
     <main>
         <section class="welcome-container">
+            <h1>Find a place for your dream vacation</h1>
+            <h2>Find a place for your dream<br> vacation</h2>
             <h4>Find a place for your dream vacation</h4>
             <p>Downtown or in nature</p>
         </section>
@@ -76,7 +82,7 @@
                 <span class="btn2-text">Family-friendly</span>
             </button>
 
-            <button class="btn" onclick="filterSelection('Romantic')">
+            <button class="btn3" onclick="filterSelection('Romantic')">
                 <span class="icon-romantic">
                     <i class="fas fa-heart"></i>
                 </span>
@@ -108,8 +114,11 @@
 
         <div class="cards-wrapper">
             <section class="accom-card-container">
-                <h4>Accommodations in Marseille</h4>
-
+                <div id="accom-anchor">
+                    <h1>Accomodations in Marseille</h1>
+                    <h2 id="mobile-header-accom">Accomodations in Marseille</h2>
+                    <h4>Accommodations in Marseille</h4>
+                </div>
                 <div class="grid-wrapper-row">
                     <div class="grid-wrapper-column">
                         <div class="card1">
@@ -120,6 +129,8 @@
 
 
                             <div class="c1-footer">
+                                <h2>Auberege la Cannebiere</h2>
+                                <h4>Auberege la Cannebiere</h4>
                                 <h6>Auberge la Cannebiere</h6>
                                 <p>Night starting at<b>25€</b></p>
                                 <span class="four-star">
@@ -144,6 +155,8 @@
                             </div>
 
                             <div class="c2-footer">
+                                <h2>Hotel du port</h2>
+                                <h4>Hotel du port</h4>
                                 <h6>Hotel du port</h6>
                                 <p>Night starting at<b>52€</b></p>
                                 <span class="five-star">
@@ -166,6 +179,8 @@
                             </div>
 
                             <div class="c3-footer">
+                                <h2>Les mouettes Hotel</h2>
+                                <h4>Les mouettes Hotel</h4>
                                 <h6>Les mouettes Hotel</h6>
                                 <p>Night starting at<b>76€</b></p>
                                 <span class="four-star">
@@ -192,6 +207,8 @@
                             </div>
 
                             <div class="c4-footer">
+                                <h2>Hotel de la mer</h2>
+                                <h4>Hotel de la mer</h4>
                                 <h6>Hotel de la mer</h6>
                                 <p>Night starting at<b>46€</b></p>
                                 <span class="three-star">
@@ -214,6 +231,8 @@
                             </div>
 
                             <div class="c5-footer">
+                                <h2>Auberege La Penier</h2>
+                                <h4>Auberege La Penier</h4>
                                 <h6>Auberege La Penier</h6>
                                 <p>Night starting at<b>23€</b></p>
                                 <span class="four-star">
@@ -236,6 +255,8 @@
                             </div>
 
                             <div class="c6-footer">
+                                <h2>Hotel chez Amina</h2>
+                                <h4>Hotel chez Amina</h4>
                                 <h6>Hotel chez Amina</h6>
                                 <p>Night starting at<b>96€</b></p>
                                 <span class="five-star">
@@ -252,11 +273,14 @@
 
                 </div>
 
+                <h2>Show more</h2>
                 <h5>Show more</h5>
             </section>
 
             <section class="mp-card-container">
                 <div class="mp-title-container">
+                    <h1>Most Popular</h1>
+                    <h2>Most Popular</h2>
                     <h4>Most Popular </h4>
                     <span class="icon-graph">
                         <i class="fas fa-chart-line"></i>
@@ -272,9 +296,11 @@
                         </div>
 
                         <div class="mp-c1-footer">
+                            <h2>Morning Sun Hotel</h2>
+                            <h4>Morning Sun Hotel</h4>
                             <h6>Morning Sun Hotel</h6>
                             <p>Night starting at<b>128€</b></p>
-                            <span class="five-star">
+                            <span class="mp-five-star">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -291,9 +317,11 @@
                         </div>
 
                         <div class="mp-c2-footer">
-                            <h6>Au coeur de l'eau Bed and Breakfast</h6>
+                            <h2>Au coeur de l'Eau Bed and Breakfast</h2>
+                            <h4>Au coeur de l'Eau Bed and Breakfast</h4>
+                            <h6>Au coeur de l'Eau Bed and Breakfast</h6>
                             <p>Night starting at<b>71€</b></p>
-                            <span class="four-star">
+                            <span class="mp-four-star">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -310,9 +338,11 @@
                         </div>
 
                         <div class="mp-c3-footer">
+                            <h2>Tout bleu et Blanc Hotel</h2>
+                            <h4>Tout bleu et Blanc Hotel</h4>
                             <h6>Tout bleu et Blanc Hotel</h6>
                             <p>Night starting at<b>68€</b></p>
-                            <span class="four-star">
+                            <span class="mp-four-star">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -328,7 +358,11 @@
         </div>
 
         <section class="activities-container">
-            <h4>Activities in Marseille</h4>
+            <div id="activity-anchor">
+                <h1>Activities in Marseille</h1>
+                <h2 id="a-mobile-header">Activities in Marseille</h2>
+                <h4>Activities in Marseille</h4>
+            </div>
 
             <div class="a-wrapper-row">
                 <div class="a-wrapper-column-long">
@@ -338,6 +372,8 @@
                         </div>
 
                         <div class="a-c1-footer">
+                            <h2>Old Port</h2>
+                            <h4>Old Port</h4>
                             <h5>Old Port</h5>
                         </div>
 
@@ -351,6 +387,8 @@
                         </div>
 
                         <div class="a-c2-footer">
+                            <h2>Pomegues Fort</h2>
+                            <h4>Pomegues Fort</h4>
                             <h5>Pomegues Fort</h5>
                         </div>
 
@@ -362,6 +400,8 @@
                         </div>
 
                         <div class="a-c3-footer">
+                            <h2>Frioul Island</h2>
+                            <h4>Frioul Island</h4>
                             <h5>Frioul Island</h5>
                         </div>
 
@@ -375,6 +415,8 @@
                         </div>
 
                         <div class="a-c4-footer">
+                            <h2>Calanques National Park</h2>
+                            <h4>Calanques National Park</h4>
                             <h5>Calanques National Park</h5>
                         </div>
                     </div>
@@ -388,6 +430,8 @@
                         </div>
 
                         <div class="a-c5-footer">
+                            <h2>Notre-Dame-de-la-Garde</h2>
+                            <h4>Notre-Dame-de-la-Garde</h4>
                             <h5>Notre-Dame-de-la-Garde</h5>
                         </div>
 
@@ -399,6 +443,8 @@
                         </div>
 
                         <div class="a-c6-footer">
+                            <h2>Longchamp Park</h2>
+                            <h4>Longchamp Park</h4>
                             <h5>Longchamp Park</h5>
                         </div>
 
