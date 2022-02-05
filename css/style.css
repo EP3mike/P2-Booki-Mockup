@@ -460,6 +460,10 @@ form {
     padding-bottom: 0px;
 }
 
+.btn:hover, .btn2:hover, .btn3:hover, .btn4:hover {
+    background-color: #0065FC;
+}
+
 .btn1-text:hover, .btn3-text:hover {
     background-color: #DEEBFF;
     color: #0065FC;
@@ -1137,6 +1141,8 @@ form {
     width: 180px;
     height: 160px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: block;
+    text-decoration: none;
 }
 
 .card1:hover {
@@ -1202,6 +1208,8 @@ form {
     width: 180px;
     height: 160px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: block;
+    text-decoration: none;
 }
 
 .card2:hover {
@@ -1265,6 +1273,8 @@ form {
     width: 180px;
     height: 160px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: block;
+    text-decoration: none;
 }
 
 .card3:hover {
@@ -1329,6 +1339,8 @@ form {
     width: 180px;
     height: 160px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: block;
+    text-decoration: none;
 }
 
 .card4:hover {
@@ -1392,6 +1404,8 @@ form {
     width: 180px;
     height: 160px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: block;
+    text-decoration: none;
 }
 
 .card5:hover {
@@ -1454,6 +1468,8 @@ form {
     width: 180px;
     height: 160px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: block;
+    text-decoration: none;
 }
 
 .card6:hover {
@@ -2891,6 +2907,8 @@ form {
     width: 220px;
     height: 360px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display:block;
+    text-decoration: none;
 }
 
 .a-c1-header {
@@ -2928,12 +2946,18 @@ form {
     padding-left: 3px;
 }
 
+.a-c1-footer :hover {
+    color: #0065FC;
+}
+
 .a-card2 {
     background-color: white;
     border-radius: 13px;
     width: 220px;
     height: 175px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display:block;
+    text-decoration: none;
 }
 
 
@@ -2971,12 +2995,18 @@ form {
     padding-left: 3px;
 }
 
+.a-c2-footer :hover {
+    color: #0065FC;
+}
+
 .a-card3 {
     background-color: white;
     border-radius: 13px;
     width: 220px;
     height: 150px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display:block;
+    text-decoration: none;
 }
 
 .a-c3-header {
@@ -3013,12 +3043,18 @@ form {
     padding-left: 3px;
 }
 
+.a-c3-footer :hover {
+    color: #0065FC;
+}
+
 .a-card4 {
     background-color: white;
     border-radius: 13px;
     width: 220px;
     height: 360px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display:block;
+    text-decoration: none;
 }
 
 .a-c4-header {
@@ -3055,12 +3091,18 @@ form {
     padding-left: 3px;
 }
 
+.a-c4-footer :hover {
+    color: #0065FC;
+}
+
 .a-card5 {
     background-color: white;
     border-radius: 13px;
     width: 220px;
     height: 150px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display:block;
+    text-decoration: none;
 }
 
 .a-c5-header {
@@ -3099,12 +3141,18 @@ form {
     padding-left: 3px;
 }
 
+.a-c5-footer :hover {
+    color: #0065FC;
+}
+
 .a-card6 {
     background-color: white;
     border-radius: 13px;
     width: 220px;
     height: 175px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display:block;
+    text-decoration: none;
 }
 
 .a-c6-header {
@@ -3141,6 +3189,11 @@ form {
     padding-top: 0;
     padding-left: 3px;
 }
+
+.a-c6-footer :hover {
+    color: #0065FC;
+}
+
 
 /* responsive css for activities section tablet + mobile*/
 @media only screen and (max-width: 768px) {
