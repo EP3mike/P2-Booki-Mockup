@@ -1,3 +1,4 @@
+/* desktop breakpoint */
 * {
     box-sizing: border-box;
     width: 992px;
@@ -6,12 +7,7 @@
     padding: 10px 10px;
 }
 
-/* body{
-    max-width: inherit;
-    margin:auto;
-    overflow-x: hidden;
-} */
-
+/* css for font awesome icons */
 i {
     font-family: "Font Awesome 5 Pro";
     font-weight: 900;
@@ -39,6 +35,7 @@ header {
     margin: 0 0 0 0px;
 }
 
+/* hides booki logo container for tablet+mobile */
 @media only screen and (min-width: 769px) {
     .h-img-wrapper2 {
         display: none;
@@ -49,12 +46,12 @@ nav {
     width: 55%;
 }
 
+/* changes border location for desktop */
 @media only screen and (min-width: 769px) {
     nav li:hover {
         border-top: 3px solid #0065fc;
     }
 }
-
 
 .nav-menu {
     padding: 0 0 0 23px;
@@ -194,6 +191,7 @@ nav {
     padding-left: 5px;
 }
 
+/* hides tablet/mobile titles for desktopview */
 @media only screen and (min-width: 769px) {
     .welcome-container h1 {
         display: none;
@@ -331,6 +329,7 @@ form {
     border-top-right-radius: 10px;
 }
 
+/* hides tablet/mobile only search button for desktopview */
 @media only screen and (min-width: 769px) {
     #btn-glass {
         display: none;
@@ -338,7 +337,7 @@ form {
 }
 
 
-/* responsive css for search bar */
+/* responsive css for search bar tablet + mobile nested */
 @media only screen and (max-width: 768px) {
     form {
         padding-top: 10px;
@@ -644,7 +643,7 @@ form {
     right: 7px;
 }
 
-/* responsive css for filters */
+/* responsive css for filters tablet + mobile nested */
 @media only screen and (max-width: 768px) {
     .filter-container {
         flex-flow: row wrap;
@@ -911,7 +910,7 @@ form {
     padding: 0;
 }
 
-/* responsive css for tally container */
+/* responsive css for tally container tablet + mobile nested */
 @media only screen and (max-width: 768px) {
     .tally-container p {
         width: 60%;
@@ -992,10 +991,6 @@ form {
     margin: 0;
 }
 
-/* .accom-card-container a {
-    
-} */
-
 .accom-card-container h4 {
     width: 100%;
     margin-bottom: 0;
@@ -1009,6 +1004,7 @@ form {
     margin-top: 18px;
 }
 
+/* hides tablet/mobile titles for desktopview */
 @media only screen and (min-width: 769px) {
     .accom-card-container h1 {
         display: none;
@@ -1045,11 +1041,6 @@ form {
     .c6-footer h4 {
         display: none;
     }
-
-
-
-
-
 }
 
 .grid-wrapper-row {
@@ -1265,8 +1256,6 @@ form {
     padding: 3px;
 }
 
-
-
 .card3 {
     background-color: white;
     border-radius: 13px;
@@ -1331,8 +1320,6 @@ form {
     padding: 3px;
 }
 
-
-
 .card4 {
     background-color: white;
     border-radius: 13px;
@@ -1395,8 +1382,6 @@ form {
 .c4-footer b {
     padding: 3px;
 }
-
-
 
 .card5 {
     background-color: white;
@@ -1461,7 +1446,6 @@ form {
     padding: 3px;
 }
 
-
 .card6 {
     background-color: white;
     border-radius: 13px;
@@ -1525,7 +1509,7 @@ form {
     padding: 3px;
 }
 
-/* responsive css for accom section tablet + mobile */
+/* responsive css for accom section tablet + mobile nested */
 @media only screen and (max-width: 768px) {
     .accom-card-container {
         width: 100%;
@@ -2435,7 +2419,7 @@ form {
     padding: 3px;
 }
 
-/* responsive css for mp section tablet + mobile */
+/* responsive css for mp section tablet + mobile nested */
 @media only screen and (max-width: 768px) {
     .cards-wrapper {
         width: inherit;
@@ -3195,7 +3179,7 @@ form {
 }
 
 
-/* responsive css for activities section tablet + mobile*/
+/* responsive css for activities section tablet + mobile nested */
 @media only screen and (max-width: 768px) {
     .activities-container {
         width: 100%;
@@ -3606,12 +3590,7 @@ form {
 
 }
 
-
-
 /* start of the footer css */
-
-
-
 footer {
     width: 104%;
     height: auto;
@@ -3702,7 +3681,7 @@ footer li a:hover {
 }
 
 
-/* responsive css for footer */
+/* responsive css for footer tablet + mobile nested */
 @media only screen and (max-width: 768px) {
 
     footer {
